@@ -935,6 +935,13 @@
                     ]
                 }
             }
-        },   
+        }
+    },
+    "topic_info" : {
+        "history" : {
+            "title" : "History Quiz",
+            "description" : "idk smtn about history ig",
+            "image_url" : "https://i.guim.co.uk/img/static/sys-images/Guardian/About/General/2010/12/27/1293471120839/Come-Fly-with-Me-007.jpg?width=465&quality=85&dpr=1&s=none"
+        }
     }
 }

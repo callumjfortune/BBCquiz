@@ -1,4 +1,4 @@
-export function editData(callback) {
+export function editStorageData(callback) {
     var data = JSON.parse(localStorage.getItem("..."));
 
     callback(data);
