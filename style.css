@@ -4,9 +4,28 @@
 
 :root {
     --bs-font-sans-serif: "BBC Reith Sans", sans-serif;
-    --bs-nav-pills-border-radius: 0;
 }
 
 h1 {
     font-family: "BBC Reith Serif", serif;
+}
+
+.img-cover {
+    object-fit: cover;
+}
+
+.img-cover-n {
+    object-position: top;
+}
+
+.img-cover-s {
+    object-position: bottom;
+}
+
+.img-cover-w {
+    object-position: left;
+}
+
+.img-cover-e {
+    object-position: right;
 }
