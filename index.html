@@ -8,7 +8,6 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-        <script type="module" src="/index.js"></script>
    </head>
     <body>
         <div class="container">
@@ -29,11 +28,10 @@
                 <h1>Hello, world!</h1>
                 <p>Welcome to the amazing BBC Quiz!</p>
                 <div class="dropdown">
-                    <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown"> Select difficulty </button>
+                    <button class="btn btn-primary dropdown-toggle" id="hero-dropdown" type="button" data-toggle="dropdown"> Select difficulty </button>
                     <ul class="dropdown-menu">
-                      <li><a href="#">Easy</a></li>
-                      <li><a href="#">Medium</a></li>
-                      <li><a href="#">Hard</a></li>
+                      <li><a href="#" onclick="common.setDifficulty('beginner')">Beginner</a></li>
+                      <li><a href="#" onclick="common.setDifficulty('expert')">Expert</a></li>
                     </ul>
                   </div>
             </div>
@@ -106,5 +104,8 @@
                 </div>
             </footer>
         </div>
+
+        <script type="module" src="/index.js"></script>
+
     </body>
 </html>

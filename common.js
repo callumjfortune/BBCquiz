@@ -5,3 +5,8 @@ export function editStorageData(callback) {
 
     localStorage.setItem("...", JSON.stringify(data));
 }
+
+export function setDifficulty(difficulty){
+    localStorage.setItem("difficulty", difficulty);
+    document.getElementById("hero-dropdown").innerText = (localStorage.getItem("difficulty") == "beginner") ? "beginner" : "expert";
+}
