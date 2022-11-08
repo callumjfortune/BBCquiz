@@ -29,3 +29,16 @@ h1 {
 .img-cover-e {
     object-position: right;
 }
+
+.hero {
+    background: linear-gradient(135deg, #dd9652 0%, #c82c68 35%, #9a3aa6 72%, #5965cd 100%);
+    color: white;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+@media (prefers-contrast: more) {
+    .hero {
+        background: black;
+    }
+}
