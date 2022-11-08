@@ -37,7 +37,7 @@ h1 {
     padding-bottom: 4rem;
 }
 
-* {
+*:not(.form-check-input) {
     border-radius: 0px !important;
 }
 

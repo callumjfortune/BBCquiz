@@ -942,6 +942,36 @@
             "title" : "History Quiz",
             "description" : "idk smtn about history ig",
             "image_url" : "https://i.guim.co.uk/img/static/sys-images/Guardian/About/General/2010/12/27/1293471120839/Come-Fly-with-Me-007.jpg?width=465&quality=85&dpr=1&s=none"
+        },
+        "geography" : {
+            "title" : "Geography Quiz",
+            "description" : "idk smtn about geography ig",
+            "image_url" : "https://api.time.com/wp-content/uploads/2015/09/top-gear-hosts.jpeg?quality=85&w=3000"
+        },
+        "politics" : {
+            "title" : "Politics Quiz",
+            "description" : "idk smtn about politics ig",
+            "image_url" : "https://jetpackdistribution.tv/uploads/images/shows/_1200x630_crop_center-center_82_none/Chuggington_thumbnail.jpg?mtime=1612223879"
+        },
+        "conversation" : {
+            "title" : "Conversation Quiz",
+            "description" : "idk smtn about conversation ig",
+            "image_url" : "https://i.guim.co.uk/img/media/9d0bbd8ff96e89eb61752a0702bf66122cca3fb3/0_58_1728_1037/master/1728.jpg?width=1200&height=900&quality=85&auto=format&fit=crop&s=187970c875c6b09640aecf6f4dbc6cb5"
+        },
+        "celebrities" : {
+            "title" : "Celebrities Quiz",
+            "description" : "idk smtn about celebrities ig",
+            "image_url" : "https://ichef.bbci.co.uk/images/ic/1200x675/p0cxg7yc.jpg"
+        },
+        "law" : {
+            "title" : "Law Quiz",
+            "description" : "idk smtn about law ig",
+            "image_url" : "https://ichef.bbci.co.uk/images/ic/1200x675/p08rkqxl.jpg"
+        },
+        "sport" : {
+            "title" : "Sport Quiz",
+            "description" : "idk smtn about sport ig",
+            "image_url" : "https://i.guim.co.uk/img/static/sys-images/Guardian/About/General/2010/12/27/1293471120839/Come-Fly-with-Me-007.jpg?width=465&quality=85&dpr=1&s=none"
         }
     }
 }

@@ -2,6 +2,18 @@ import * as common from "./common.js";
 
 var quizData = null;
 
+export class Topic {
+    constructor(id, data, info) {
+        this.id = id;
+        this.data = data;
+        this.info = info;
+    }
+
+    get questionsCount() {
+        return Object.keys(this.data.questions).length;
+    }
+}
+
 export class QuizQuestion {
     constructor(question) {
         this.question = question;
@@ -38,6 +50,22 @@ function getQuizData() {
         quizData = data;
 
         return Promise.resolve(quizData);
+    });
+}
+
+export function getTopics(difficulty) {
+    return getQuizData().then(function() {
+        var difficultyData = quizData.difficulties[difficulty];
+
+        if (!difficultyData) {
+            return Promise.reject(`Difficulty "${difficulty}" does not exist`);
+        }
+
+        return Promise.resolve(Object.keys(difficultyData.topics).map(function(topicId) {
+            var topicData = difficultyData.topics[topicId];
+
+            return new Topic(topicId, topicData, quizData.topic_info[topicId]);
+        }));
     });
 }
 
