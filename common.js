@@ -12,12 +12,4 @@ export function getUrlParameter(parameter) {
     return value != null ? decodeURIComponent(value) : value;
 }
 
-export function getDifficulty() {
-    return localStorage.getItem("difficulty") || "beginner";
-}
-
-export function setDifficulty(difficulty) {
-    localStorage.setItem("difficulty", difficulty);
-
-    document.getElementById("hero-dropdown").innerText = localStorage.getItem("difficulty") == "beginner" ? "beginner" : "expert";
-}
+// Difficulty get/set functions moved to `index.js` since they only apply to main page
