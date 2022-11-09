@@ -15,8 +15,21 @@ $(".quizQuestions").submit(function( event )
     for (const value of data.entries())
     {   
         var questionIndex = value[0].split('_')[1];
-        if (quizQuestions[questionIndex].answer === value[1]){correctAnswers ++;}
+        if (quizQuestions[questionIndex].answer === value[1])
+        {
+            correctAnswers ++;
+            $(`#quizQuestionCard_${questionIndex} .questionResult`).removeClass("d-none");
+            $(`#quizQuestionCard_${questionIndex} .questionResult`).addClass("alert-success");
+            $(`#quizQuestionCard_${questionIndex} .questionResult`).text("Answer Correct!");
+            
+        }else
+        {
+            $(`#quizQuestionCard_${questionIndex} .questionResult`).removeClass("d-none");
+            $(`#quizQuestionCard_${questionIndex} .questionResult`).addClass("alert-danger");
+            $(`#quizQuestionCard_${questionIndex} .questionResult`).text("Answer Incorrect!");
+        }
 
+        
     }
 
     $("#quizResults").removeClass("d-none");
@@ -45,7 +58,9 @@ $(function() {
                                 .text(question.options[optionId])
                         ]))
                     )
-                ])
+                ]).attr("id", `quizQuestionCard_${questionIndex}`).append(
+                    $("<div class='questionResult alert alert-success d-none m-0' ></div>")
+                )
             ]))
         ).append(
             $("<div id='quizResults' class='alert alert-success d-none' ></div>")
