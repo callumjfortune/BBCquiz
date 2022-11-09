@@ -3,9 +3,30 @@ import * as api from "./api.js";
 
 var difficulty = common.getUrlParameter("difficulty");
 var topic = common.getUrlParameter("topic");
+var quizQuestions = null;
+
+$(".quizQuestions").submit(function( event )
+{
+    event.preventDefault();
+    var data = new FormData(event.target);
+
+    var correctAnswers = 0;
+
+    for (const value of data.entries())
+    {   
+        var questionIndex = value[0].split('_')[1];
+        if (quizQuestions[questionIndex].answer === value[1]){correctAnswers ++;}
+
+    }
+
+    $("#quizResults").removeClass("d-none");
+    $("#quizResults").text(`You answered ${correctAnswers} out of ${quizQuestions.length} questions correctly!`);
+});
+
 
 $(function() {
     api.getQuizQuestions(difficulty, topic).then(function(questions) {
+        quizQuestions = questions;
         $(".quizQuestions").empty();
 
         $(".quizQuestions").append(
@@ -17,6 +38,7 @@ $(function() {
                             $("<input type='radio' class='form-check-input'>")
                                 .attr("name", `quizQuestionOptions_${questionIndex}`)
                                 .attr("id", `quizQuestionOption_${questionIndex}_${optionId}`)
+                                .attr("value", optionId)
                             ,
                             $("<label class='form-check-label'>")
                                 .attr("for", `quizQuestionOption_${questionIndex}_${optionId}`)
@@ -25,6 +47,10 @@ $(function() {
                     )
                 ])
             ]))
+        ).append(
+            $("<div id='quizResults' class='alert alert-success d-none' ></div>")
+        ).append(
+            $("<button class='btn btn-success' type='submit'>Submit Answers</button>")
         );
 
         api.sendAnalyticsEvent("loadQuiz", {topic, difficulty});
