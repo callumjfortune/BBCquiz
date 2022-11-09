@@ -52,6 +52,8 @@ $(function() {
         ).append(
             $("<button class='btn btn-success' type='submit'>Submit Answers</button>")
         );
+
+        api.sendAnalyticsEvent("loadQuiz", {topic, difficulty});
     }).catch(function(error) {
         console.log(error);
 

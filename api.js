@@ -88,3 +88,30 @@ export function getQuizQuestions(difficulty, topic) {
         }));
     });
 }
+
+export function getAnalyticsProfileId() {
+    var id = localStorage.getItem("analyticsProfileId");
+
+    if (!id) {
+        id = common.generateKey();
+
+        localStorage.setItem("analyticsProfileId", id);
+    }
+
+    return id;
+}
+
+export function sendAnalyticsEvent(eventType, eventData) {
+    common.editStorageData("analytics", function(data) {
+        data[eventType] ||= [];
+
+        data[eventType].push({
+            ...eventData,
+            id: common.generateKey(),
+            profileId: getAnalyticsProfileId(),
+            timestamp: Date.now()
+        });
+
+        return data;
+    });
+}
