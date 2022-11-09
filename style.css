@@ -37,6 +37,11 @@ h1 {
     padding-bottom: 4rem;
 }
 
+.video {
+    width: 100%;
+    aspect-ratio: 25 / 18;
+}
+
 *:not(.form-check-input) {
     border-radius: 0px !important;
 }

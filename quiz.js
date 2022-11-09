@@ -34,6 +34,10 @@ $(".quizQuestions").submit(function( event )
 
     $("#quizResults").removeClass("d-none");
     $("#quizResults").text(`You answered ${correctAnswers} out of ${quizQuestions.length} questions correctly!`);
+
+    $(".btn-success").text("Return to home");
+    $(".btn-success").attr("onclick", "window.location.href = '/'");
+    
 });
 
 
@@ -46,6 +50,12 @@ $(function() {
             questions.map((question, questionIndex) => $("<div class='card mb-2'>").append([
                 $("<div class='card-body'>").append([
                     $("<h5 class='card-title'>").text(question.question),
+                    question instanceof api.VideoQuizQuestion ? (
+                        $("<iframe class='video'>")
+                            .attr("src", question.videoUrl)
+                            .attr("allowfullscreen", "true")
+                            .attr("frameborder", "0")
+                    ) : null,
                     $("<div class='form-check'>").append(
                         Object.keys(question.options).map((optionId) => $("<div class='mb-2'>").append([
                             $("<input type='radio' class='form-check-input'>")
@@ -65,7 +75,7 @@ $(function() {
         ).append(
             $("<div id='quizResults' class='alert alert-success d-none' ></div>")
         ).append(
-            $("<button class='btn btn-success' type='submit'>Submit Answers</button>")
+            $("<button class='btn btn-success' type='submit' >Submit Answers</button>")
         );
 
         api.sendAnalyticsEvent("loadQuiz", {topic, difficulty});
