@@ -26,6 +26,8 @@ $(function() {
                 ])
             ]))
         );
+
+        api.sendAnalyticsEvent("loadQuiz", {topic, difficulty});
     }).catch(function(error) {
         console.log(error);
 
