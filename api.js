@@ -20,9 +20,12 @@ export class QuizQuestion {
     }
 
     static deserailise(data) {
-        switch ("multiple_choice") { // Just hard-coded to multiple choice type for now
+        switch (data.type || "multiple_choice") { // Fallback to multiple choice if no type is specified
             case "multiple_choice":
                 return new MultipleChoiceQuizQuestion(data.question, data.options, data.answer);
+
+            case "video":
+                return new VideoQuizQuestion(data.question, data.videoUrl, data.options, data.answer);
 
             default:
                 throw new Error("Invalid question type");
@@ -36,6 +39,14 @@ export class MultipleChoiceQuizQuestion extends QuizQuestion {
 
         this.options = options;
         this.answer = answer;
+    }
+}
+
+export class VideoQuizQuestion extends MultipleChoiceQuizQuestion {
+    constructor(question, videoUrl, options, answer) {
+        super(question, options, answer);
+
+        this.videoUrl = videoUrl;
     }
 }
 
