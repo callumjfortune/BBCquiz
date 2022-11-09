@@ -22,4 +22,5 @@ export function getUrlParameter(parameter) {
     return value != null ? decodeURIComponent(value) : value;
 }
 
+
 // Difficulty get/set functions moved to `index.js` since they only apply to main page

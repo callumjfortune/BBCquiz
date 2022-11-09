@@ -34,6 +34,10 @@ $(".quizQuestions").submit(function( event )
 
     $("#quizResults").removeClass("d-none");
     $("#quizResults").text(`You answered ${correctAnswers} out of ${quizQuestions.length} questions correctly!`);
+
+    $(".btn-success").text("Return to home");
+    $(".btn-success").attr("onclick", "window.location.href = '/'");
+    
 });
 
 
@@ -65,7 +69,7 @@ $(function() {
         ).append(
             $("<div id='quizResults' class='alert alert-success d-none' ></div>")
         ).append(
-            $("<button class='btn btn-success' type='submit'>Submit Answers</button>")
+            $("<button class='btn btn-success' type='submit' >Submit Answers</button>")
         );
 
         api.sendAnalyticsEvent("loadQuiz", {topic, difficulty});
