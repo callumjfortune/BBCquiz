@@ -27,6 +27,9 @@ export class QuizQuestion {
             case "video":
                 return new VideoQuizQuestion(data.question, data.videoUrl, data.options, data.answer);
 
+            case "true_or_false":
+                return new TrueOrFalseQuizQuestion(data.question, data.answer);
+
             default:
                 throw new Error("Invalid question type");
         }
@@ -47,6 +50,15 @@ export class VideoQuizQuestion extends MultipleChoiceQuizQuestion {
         super(question, options, answer);
 
         this.videoUrl = videoUrl;
+    }
+}
+
+export class TrueOrFalseQuizQuestion extends MultipleChoiceQuizQuestion {
+    constructor(question, answer) {
+        super(question, {
+            "true": "True",
+            "false": "False"
+        }, answer);
     }
 }
 
