@@ -7,6 +7,7 @@
         <link rel="stylesheet" href="/style.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+        <script type="module" src="/quiz.js"></script>
     </head>
     <body>
         <div class="container">
@@ -26,100 +27,101 @@
                 <div class="col"></div>
                 
                 <div class="col-6">
-                    <div class="form">
+                    <div class="quizForm form">
 
-                        <div class="card mb-2">
-                        <div class="card-body">
-
-                            <h5 class="card-title">Which country has the most pyramids in the world?</h5>
-                            
-                            <div class="form-check">
-                                <div class="mb-2">
-                                    <input class="form-check-input" type="radio" name="RadioValue" id="radioQuestion11">
-                                    <label class="form-check-label" for="radioQuestion11"> Egypt </label>
-                                </div>
-
-                                <div class="mb-2">
-                                    <input class="form-check-input" type="radio" name="RadioValue" id="radioQuestion12">
-                                    <label class="form-check-label" for="radioQuestion12"> USA </label>
-                                </div>
-
-                                <div class="mb-2">
-                                    <input class="form-check-input" type="radio" name="RadioValue" id="radioQuestion13">
-                                    <label class="form-check-label" for="radioQuestion13"> Sudan </label>
-                                </div>
-
-                                <div class="mb-2">
-                                    <input class="form-check-input" type="radio" name="RadioValue" id="radioQuestion14">
-                                    <label class="form-check-label" for="radioQuestion14"> China </label>
-                                </div>
-                            </div>
-                        </div>
-                        </div>
-
-
-                        <div class="card mb-2">
-                            <div class="card-body">
-    
-                                <h5 class="card-title">Which country is home to Mount Everest?</h5>
-                                
-                                <div class="form-check">
-                                    <div class="mb-2">
-                                        <input class="form-check-input" type="radio" name="RadioValue2" id="radioQuestion21">
-                                        <label class="form-check-label" for="radioQuestion21"> India </label>
-                                    </div>
-
-                                    <div class="mb-2">
-                                        <input class="form-check-input" type="radio" name="RadioValue2" id="radioQuestion22">
-                                        <label class="form-check-label" for="radioQuestion22"> China </label>
-                                    </div>
-
-                                    <div class="mb-2">
-                                        <input class="form-check-input" type="radio" name="RadioValue2" id="radioQuestion23">
-                                        <label class="form-check-label" for="radioQuestion23"> Nepal </label>
-                                    </div>
-
-                                    <div class="mb-2">
-                                        <input class="form-check-input" type="radio" name="RadioValue2" id="radioQuestion24">
-                                        <label class="form-check-label" for="radioQuestion24"> Iran </label>
+                        <div class="quizQuestions">
+                            <div class="card mb-2">
+                                <div class="card-body">
+        
+                                    <h5 class="card-title">Which country has the most pyramids in the world?</h5>
+                                    
+                                    <div class="form-check">
+                                        <div class="mb-2">
+                                            <input class="form-check-input" type="radio" name="RadioValue" id="radioQuestion11">
+                                            <label class="form-check-label" for="radioQuestion11"> Egypt </label>
+                                        </div>
+        
+                                        <div class="mb-2">
+                                            <input class="form-check-input" type="radio" name="RadioValue" id="radioQuestion12">
+                                            <label class="form-check-label" for="radioQuestion12"> USA </label>
+                                        </div>
+        
+                                        <div class="mb-2">
+                                            <input class="form-check-input" type="radio" name="RadioValue" id="radioQuestion13">
+                                            <label class="form-check-label" for="radioQuestion13"> Sudan </label>
+                                        </div>
+        
+                                        <div class="mb-2">
+                                            <input class="form-check-input" type="radio" name="RadioValue" id="radioQuestion14">
+                                            <label class="form-check-label" for="radioQuestion14"> China </label>
+                                        </div>
                                     </div>
                                 </div>
-                            
-                        </div>
-                        </div>
-
-                        <div class="card mb-2">
-                            <div class="card-body">
-    
-                                <h5 class="card-title">Where is the highest man-made structure ever built?</h5>
-                                
-                                <div class="form-check">
-                                    <div class="mb-2">
-                                        <input class="form-check-input" type="radio" name="RadioValue3" id="radioQuestion31">
-                                        <label class="form-check-label" for="radioQuestion31"> Dubai </label>
-                                    </div>
-
-                                    <div class="mb-2">
-                                        <input class="form-check-input" type="radio" name="RadioValue3" id="radioQuestion32">
-                                        <label class="form-check-label" for="radioQuestion32"> China </label>
-                                    </div>
-
-                                    <div class="mb-2">
-                                        <input class="form-check-input" type="radio" name="RadioValue3" id="radioQuestion33">
-                                        <label class="form-check-label" for="radioQuestion33"> USA </label>
-                                    </div>
-
-                                    <div class="mb-2">
-                                        <input class="form-check-input" type="radio" name="RadioValue3" id="radioQuestion34">
-                                        <label class="form-check-label" for="radioQuestion34"> Brazil </label>
-                                    </div>
                                 </div>
-
-                        </div>
+        
+        
+                                <div class="card mb-2">
+                                    <div class="card-body">
+            
+                                        <h5 class="card-title">Which country is home to Mount Everest?</h5>
+                                        
+                                        <div class="form-check">
+                                            <div class="mb-2">
+                                                <input class="form-check-input" type="radio" name="RadioValue2" id="radioQuestion21">
+                                                <label class="form-check-label" for="radioQuestion21"> India </label>
+                                            </div>
+        
+                                            <div class="mb-2">
+                                                <input class="form-check-input" type="radio" name="RadioValue2" id="radioQuestion22">
+                                                <label class="form-check-label" for="radioQuestion22"> China </label>
+                                            </div>
+        
+                                            <div class="mb-2">
+                                                <input class="form-check-input" type="radio" name="RadioValue2" id="radioQuestion23">
+                                                <label class="form-check-label" for="radioQuestion23"> Nepal </label>
+                                            </div>
+        
+                                            <div class="mb-2">
+                                                <input class="form-check-input" type="radio" name="RadioValue2" id="radioQuestion24">
+                                                <label class="form-check-label" for="radioQuestion24"> Iran </label>
+                                            </div>
+                                        </div>
+                                    
+                                </div>
+                                </div>
+        
+                                <div class="card mb-2">
+                                    <div class="card-body">
+            
+                                        <h5 class="card-title">Where is the highest man-made structure ever built?</h5>
+                                        
+                                        <div class="form-check">
+                                            <div class="mb-2">
+                                                <input class="form-check-input" type="radio" name="RadioValue3" id="radioQuestion31">
+                                                <label class="form-check-label" for="radioQuestion31"> Dubai </label>
+                                            </div>
+        
+                                            <div class="mb-2">
+                                                <input class="form-check-input" type="radio" name="RadioValue3" id="radioQuestion32">
+                                                <label class="form-check-label" for="radioQuestion32"> China </label>
+                                            </div>
+        
+                                            <div class="mb-2">
+                                                <input class="form-check-input" type="radio" name="RadioValue3" id="radioQuestion33">
+                                                <label class="form-check-label" for="radioQuestion33"> USA </label>
+                                            </div>
+        
+                                            <div class="mb-2">
+                                                <input class="form-check-input" type="radio" name="RadioValue3" id="radioQuestion34">
+                                                <label class="form-check-label" for="radioQuestion34"> Brazil </label>
+                                            </div>
+                                        </div>
+        
+                                </div>
+                                </div>
                         </div>
 
                         <button class="btn btn-success" type="submit">Submit Answers</button>
-
                     </div>
                 </div>
 
