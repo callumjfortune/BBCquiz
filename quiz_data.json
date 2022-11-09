@@ -1,6 +1,6 @@
 {
     "difficulties" : {
-        "easy" : {
+        "beginner" : {
             "topics" : {
                 "history" : {
                     "questions" : [
@@ -624,7 +624,7 @@
                 }
             }
         },   
-        "hard" : {
+        "expert" : {
             "topics" : {
                 "history" : {
                     "questions" : [
