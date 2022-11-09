@@ -10,10 +10,13 @@ window.getDifficulty = function() {
 window.setDifficulty = function(difficulty) {
     localStorage.setItem("difficulty", difficulty);
 
-    document.getElementById("hero-dropdown").innerText = localStorage.getItem("difficulty") == "beginner" ? "beginner" : "expert";
-
+    updateDifficultyDropdown();
     loadTopicsList(); // We have to re-call this function so that the URL queries in the links for each topic are updated to reflect the chosen difficulty
 };
+
+function updateDifficultyDropdown() {
+    $("#hero-dropdown").text(getDifficulty() == "beginner" ? "Select difficulty: Beginner" : "Select difficulty: Expert");
+}
 
 function loadTopicsList() {
     console.log(`Loading topics list for difficulty "${getDifficulty()}"...`);
@@ -59,5 +62,6 @@ function loadTopicsList() {
 }
 
 $(function() {
+    updateDifficultyDropdown();
     loadTopicsList();
 });
