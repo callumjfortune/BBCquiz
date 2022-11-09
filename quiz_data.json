@@ -94,6 +94,8 @@
                     "questions" : [
                         {
                             "question" : "How many wives did Henry 8th have?",
+                            "type": "video",
+                            "videoUrl": "https://www.bbc.co.uk/news/av-embeds/63563189",
                             "options" : {
                                 "option_one" : "8",
                                 "option_two" : "6",
