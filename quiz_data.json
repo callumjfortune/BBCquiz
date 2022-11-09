@@ -15,14 +15,14 @@
                             "answer" : "option_two"
                         },
                         {
-                            "question" : "Finish the line - \"Let them eat...\"",
+                            "question" : "In which year did World War 2 begin?",
                             "options" : {
-                                "option_one" : "cake",
-                                "option_two" : "sourdough",
-                                "option_three" : "button mushrooms",
-                                "option_four" : "courgette"
+                                "option_one" : "1914",
+                                "option_two" : "1939",
+                                "option_three" : "1945",
+                                "option_four" : "1918"
                             },
-                            "answer" : "option_one"
+                            "answer" : "option_three"
                         },
                         {
                             "question" : "What year was the battle of Hastings?",
@@ -35,21 +35,21 @@
                             "answer" : "option_three"
                         },
                         {
-                            "question" : "What year was Queen Elizabeth II crowned?",
+                            "question" : "What was the name of the first man who stepped on the moon's surface?",
                             "options" : {
-                                "option_one" : "1952",
-                                "option_two" : "1951",
-                                "option_three" : "1949",
-                                "option_four" : "1957"
+                                "option_one" : "Buzz Aldrin",
+                                "option_two" : "Louis Armstrong",
+                                "option_three" : "Tim Davie",
+                                "option_four" : "Neil Armstrong"
                             },
-                            "answer" : "option_one"
+                            "answer" : "option_four"
                         }
                     ]
                 },
                 "geography" : {
                     "questions" : [
                         {
-                            "question" : "In what country would you find the base camp of mount Everest",
+                            "question" : "Where is the talles mountain in the world located?",
                             "options" : {
                                 "option_one" : "Nepal",
                                 "option_two" : "Tanzania",
@@ -59,32 +59,32 @@
                             "answer" : "option_one"
                         },
                         {
-                            "question" : "How many wives did Henry 8th have?",
+                            "question" : "Which country has the largest population in the world?",
                             "options" : {
-                                "option_one" : "8",
-                                "option_two" : "6",
-                                "option_three" : "4",
-                                "option_four" : "3"
+                                "option_one" : "Russia",
+                                "option_two" : "India",
+                                "option_three" : "China",
+                                "option_four" : "USA"
                             },
-                            "answer" : "option_two"
+                            "answer" : "option_three"
                         },
                         {
-                            "question" : "How many wives did Henry 8th have?",
+                            "question" : "What is the name of the largest country in the world by land mass?",
                             "options" : {
-                                "option_one" : "8",
-                                "option_two" : "6",
-                                "option_three" : "4",
-                                "option_four" : "3"
+                                "option_one" : "Canada",
+                                "option_two" : "Greenland",
+                                "option_three" : "Russia",
+                                "option_four" : "Australia"
                             },
-                            "answer" : "option_two"
+                            "answer" : "option_three"
                         },
                         {
-                            "question" : "How many wives did Henry 8th have?",
+                            "question" : "What is the name of the smallest country in the world?",
                             "options" : {
-                                "option_one" : "8",
-                                "option_two" : "6",
-                                "option_three" : "4",
-                                "option_four" : "3"
+                                "option_one" : "The Vatican City",
+                                "option_two" : "Oman",
+                                "option_three" : "Monaco",
+                                "option_four" : "Northern Ireland"
                             },
                             "answer" : "option_two"
                         }
@@ -103,6 +103,11 @@
                                 "option_four" : "3"
                             },
                             "answer" : "option_two"
+                        },
+                        {
+                            "question" : "Was Liz Truss the shortest-serving former prime minister?",
+                            "type": "true_or_false",
+                            "answer" : "true"
                         },
                         {
                             "question" : "How many wives did Henry 8th have?",
@@ -339,68 +344,14 @@
                             "answer" : "option_one"
                         },
                         {
-                            "question" : "What year was the battle of Hastings?",
+                            "question" : "How many states does the USA consist of?",
                             "options" : {
-                                "option_one" : "1123",
-                                "option_two" : "1666",
-                                "option_three" : "1066",
-                                "option_four" : "987"
+                                "option_one" : "49",
+                                "option_two" : "51",
+                                "option_three" : "50",
+                                "option_four" : "None"
                             },
                             "answer" : "option_three"
-                        },
-                        {
-                            "question" : "What year was Queen Elizabeth II crowned?",
-                            "options" : {
-                                "option_one" : "1952",
-                                "option_two" : "1951",
-                                "option_three" : "1949",
-                                "option_four" : "1957"
-                            },
-                            "answer" : "option_one"
-                        }
-                    ]
-                },
-                "geography" : {
-                    "questions" : [
-                        {
-                            "question" : "How many wives did Henry 8th have?",
-                            "options" : {
-                                "option_one" : "8",
-                                "option_two" : "6",
-                                "option_three" : "4",
-                                "option_four" : "3"
-                            },
-                            "answer" : "option_two"
-                        },
-                        {
-                            "question" : "How many wives did Henry 8th have?",
-                            "options" : {
-                                "option_one" : "8",
-                                "option_two" : "6",
-                                "option_three" : "4",
-                                "option_four" : "3"
-                            },
-                            "answer" : "option_two"
-                        },
-                        {
-                            "question" : "How many wives did Henry 8th have?",
-                            "options" : {
-                                "option_one" : "8",
-                                "option_two" : "6",
-                                "option_three" : "4",
-                                "option_four" : "3"
-                            },
-                            "answer" : "option_two"
-                        },
-                        {
-                            "question" : "How many wives did Henry 8th have?",
-                            "options" : {
-                                "option_one" : "8",
-                                "option_two" : "6",
-                                "option_three" : "4",
-                                "option_four" : "3"
-                            },
-                            "answer" : "option_two"
                         }
                     ]
                 },
@@ -448,7 +399,7 @@
                         }
                     ]
                 },
-                "conversation" : {
+                "conservation" : {
                     "questions" : [
                         {
                             "question" : "How many wives did Henry 8th have?",
@@ -631,14 +582,14 @@
                 "history" : {
                     "questions" : [
                         {
-                            "question" : "How many wives did Henry 8th have?",
+                            "question" : "How many years did the 100 years war last?",
                             "options" : {
-                                "option_one" : "8",
-                                "option_two" : "6",
-                                "option_three" : "4",
-                                "option_four" : "3"
+                                "option_one" : "100",
+                                "option_two" : "99",
+                                "option_three" : "116",
+                                "option_four" : "107"
                             },
-                            "answer" : "option_two"
+                            "answer" : "option_four"
                         },
                         {
                             "question" : "Finish the line - \"Let them eat...\"",
@@ -651,12 +602,12 @@
                             "answer" : "option_one"
                         },
                         {
-                            "question" : "What year was the battle of Hastings?",
+                            "question" : "How many days were the in a week in ancient Roman times?",
                             "options" : {
-                                "option_one" : "1123",
-                                "option_two" : "1666",
-                                "option_three" : "1066",
-                                "option_four" : "987"
+                                "option_one" : "7",
+                                "option_two" : "5",
+                                "option_three" : "8",
+                                "option_four" : "14"
                             },
                             "answer" : "option_three"
                         },
@@ -675,42 +626,52 @@
                 "geography" : {
                     "questions" : [
                         {
-                            "question" : "How many wives did Henry 8th have?",
+                            "question" : "How many time zones does Russia have?",
                             "options" : {
                                 "option_one" : "8",
                                 "option_two" : "6",
-                                "option_three" : "4",
+                                "option_three" : "11",
                                 "option_four" : "3"
+                            },
+                            "answer" : "option_three"
+                        },
+                        {
+                            "question" : "Which season does Australia experience in December ",
+                            "options" : {
+                                "option_one" : "Winter",
+                                "option_two" : "Autumn",
+                                "option_three" : "Spring",
+                                "option_four" : "Summer"
+                            },
+                            "answer" : "option_four"
+                        },
+                        {
+                            "question" : "Which of the following is the largest desert in the world?",
+                            "options" : {
+                                "option_one" : "Sahara Desert",
+                                "option_two" : "The Polar Antarctic",
+                                "option_three" : "Arabian Desert",
+                                "option_four" : "Gobi Desert"
                             },
                             "answer" : "option_two"
                         },
                         {
-                            "question" : "How many wives did Henry 8th have?",
+                            "question" : "Which country wrote the first constitution document in Europe?",
                             "options" : {
-                                "option_one" : "8",
-                                "option_two" : "6",
-                                "option_three" : "4",
-                                "option_four" : "3"
+                                "option_one" : "France",
+                                "option_two" : "UK",
+                                "option_three" : "Germany",
+                                "option_four" : "Poland"
                             },
-                            "answer" : "option_two"
+                            "answer" : "option_four"
                         },
                         {
-                            "question" : "How many wives did Henry 8th have?",
+                            "question" : "Where are the Spanish Steps located?",
                             "options" : {
-                                "option_one" : "8",
-                                "option_two" : "6",
-                                "option_three" : "4",
-                                "option_four" : "3"
-                            },
-                            "answer" : "option_two"
-                        },
-                        {
-                            "question" : "How many wives did Henry 8th have?",
-                            "options" : {
-                                "option_one" : "8",
-                                "option_two" : "6",
-                                "option_three" : "4",
-                                "option_four" : "3"
+                                "option_one" : "Barcelona, Spain",
+                                "option_two" : "Rome, Italy",
+                                "option_three" : "Madrid, Spain",
+                                "option_four" : "Berlin, Germany"
                             },
                             "answer" : "option_two"
                         }
@@ -760,7 +721,7 @@
                         }
                     ]
                 },
-                "conversation" : {
+                "conservation" : {
                     "questions" : [
                         {
                             "question" : "How many wives did Henry 8th have?",

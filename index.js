@@ -59,7 +59,5 @@ function loadTopicsList() {
 }
 
 $(function() {
-    api.getQuizQuestions("easy", "history").then(console.log);
-
     loadTopicsList();
 });
