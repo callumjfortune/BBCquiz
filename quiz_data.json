@@ -86,261 +86,6 @@
                                 "option_three" : "Monaco",
                                 "option_four" : "Northern Ireland"
                             },
-                            "answer" : "option_two"
-                        }
-                    ]
-                },
-                "politics" : {
-                    "questions" : [
-                        {
-                            "question" : "How many wives did Henry 8th have?",
-                            "type": "video",
-                            "videoUrl": "https://www.bbc.co.uk/news/av-embeds/63563189",
-                            "options" : {
-                                "option_one" : "8",
-                                "option_two" : "6",
-                                "option_three" : "4",
-                                "option_four" : "3"
-                            },
-                            "answer" : "option_two"
-                        },
-                        {
-                            "question" : "Was Liz Truss the shortest-serving former prime minister?",
-                            "type": "true_or_false",
-                            "answer" : "true"
-                        },
-                        {
-                            "question" : "How many wives did Henry 8th have?",
-                            "options" : {
-                                "option_one" : "8",
-                                "option_two" : "6",
-                                "option_three" : "4",
-                                "option_four" : "3"
-                            },
-                            "answer" : "option_two"
-                        },
-                        {
-                            "question" : "How many wives did Henry 8th have?",
-                            "options" : {
-                                "option_one" : "8",
-                                "option_two" : "6",
-                                "option_three" : "4",
-                                "option_four" : "3"
-                            },
-                            "answer" : "option_two"
-                        },
-                        {
-                            "question" : "How many wives did Henry 8th have?",
-                            "options" : {
-                                "option_one" : "8",
-                                "option_two" : "6",
-                                "option_three" : "4",
-                                "option_four" : "3"
-                            },
-                            "answer" : "option_two"
-                        }
-                    ]
-                },
-                "conversation" : {
-                    "questions" : [
-                        {
-                            "question" : "How many wives did Henry 8th have?",
-                            "options" : {
-                                "option_one" : "8",
-                                "option_two" : "6",
-                                "option_three" : "4",
-                                "option_four" : "3"
-                            },
-                            "answer" : "option_two"
-                        },
-                        {
-                            "question" : "How many wives did Henry 8th have?",
-                            "options" : {
-                                "option_one" : "8",
-                                "option_two" : "6",
-                                "option_three" : "4",
-                                "option_four" : "3"
-                            },
-                            "answer" : "option_two"
-                        },
-                        {
-                            "question" : "How many wives did Henry 8th have?",
-                            "options" : {
-                                "option_one" : "8",
-                                "option_two" : "6",
-                                "option_three" : "4",
-                                "option_four" : "3"
-                            },
-                            "answer" : "option_two"
-                        },
-                        {
-                            "question" : "How many wives did Henry 8th have?",
-                            "options" : {
-                                "option_one" : "8",
-                                "option_two" : "6",
-                                "option_three" : "4",
-                                "option_four" : "3"
-                            },
-                            "answer" : "option_two"
-                        }
-                    ]
-                },
-                "celebrities" : {
-                    "questions" : [
-                        {
-                            "question" : "How many wives did Henry 8th have?",
-                            "options" : {
-                                "option_one" : "8",
-                                "option_two" : "6",
-                                "option_three" : "4",
-                                "option_four" : "3"
-                            },
-                            "answer" : "option_two"
-                        },
-                        {
-                            "question" : "How many wives did Henry 8th have?",
-                            "options" : {
-                                "option_one" : "8",
-                                "option_two" : "6",
-                                "option_three" : "4",
-                                "option_four" : "3"
-                            },
-                            "answer" : "option_two"
-                        },
-                        {
-                            "question" : "How many wives did Henry 8th have?",
-                            "options" : {
-                                "option_one" : "8",
-                                "option_two" : "6",
-                                "option_three" : "4",
-                                "option_four" : "3"
-                            },
-                            "answer" : "option_two"
-                        },
-                        {
-                            "question" : "How many wives did Henry 8th have?",
-                            "options" : {
-                                "option_one" : "8",
-                                "option_two" : "6",
-                                "option_three" : "4",
-                                "option_four" : "3"
-                            },
-                            "answer" : "option_two"
-                        }
-                    ]
-                },
-                "law" : {
-                    "questions" : [
-                        {
-                            "question" : "How many wives did Henry 8th have?",
-                            "options" : {
-                                "option_one" : "8",
-                                "option_two" : "6",
-                                "option_three" : "4",
-                                "option_four" : "3"
-                            },
-                            "answer" : "option_two"
-                        },
-                        {
-                            "question" : "How many wives did Henry 8th have?",
-                            "options" : {
-                                "option_one" : "8",
-                                "option_two" : "6",
-                                "option_three" : "4",
-                                "option_four" : "3"
-                            },
-                            "answer" : "option_two"
-                        },
-                        {
-                            "question" : "How many wives did Henry 8th have?",
-                            "options" : {
-                                "option_one" : "8",
-                                "option_two" : "6",
-                                "option_three" : "4",
-                                "option_four" : "3"
-                            },
-                            "answer" : "option_two"
-                        },
-                        {
-                            "question" : "How many wives did Henry 8th have?",
-                            "options" : {
-                                "option_one" : "8",
-                                "option_two" : "6",
-                                "option_three" : "4",
-                                "option_four" : "3"
-                            },
-                            "answer" : "option_two"
-                        }
-                    ]
-                },
-                "sport" : {
-                    "questions" : [
-                        {
-                            "question" : "How many wives did Henry 8th have?",
-                            "options" : {
-                                "option_one" : "8",
-                                "option_two" : "6",
-                                "option_three" : "4",
-                                "option_four" : "3"
-                            },
-                            "answer" : "option_two"
-                        },
-                        {
-                            "question" : "How many wives did Henry 8th have?",
-                            "options" : {
-                                "option_one" : "8",
-                                "option_two" : "6",
-                                "option_three" : "4",
-                                "option_four" : "3"
-                            },
-                            "answer" : "option_two"
-                        },
-                        {
-                            "question" : "How many wives did Henry 8th have?",
-                            "options" : {
-                                "option_one" : "8",
-                                "option_two" : "6",
-                                "option_three" : "4",
-                                "option_four" : "3"
-                            },
-                            "answer" : "option_two"
-                        },
-                        {
-                            "question" : "How many wives did Henry 8th have?",
-                            "options" : {
-                                "option_one" : "8",
-                                "option_two" : "6",
-                                "option_three" : "4",
-                                "option_four" : "3"
-                            },
-                            "answer" : "option_two"
-                        }
-                    ]
-                }
-            }
-        },   
-        "medium" : {
-            "topics" : {
-                "history" : {
-                    "questions" : [
-                        {
-                            "question" : "How many wives did Henry 8th have?",
-                            "options" : {
-                                "option_one" : "8",
-                                "option_two" : "6",
-                                "option_three" : "4",
-                                "option_four" : "3"
-                            },
-                            "answer" : "option_two"
-                        },
-                        {
-                            "question" : "Finish the line - \"Let them eat...\"",
-                            "options" : {
-                                "option_one" : "cake",
-                                "option_two" : "sourdough",
-                                "option_three" : "button mushrooms",
-                                "option_four" : "courgette"
-                            },
                             "answer" : "option_one"
                         },
                         {
@@ -358,42 +103,42 @@
                 "politics" : {
                     "questions" : [
                         {
-                            "question" : "How many wives did Henry 8th have?",
+                            "question" : "What does NATO stand for?",
                             "options" : {
-                                "option_one" : "8",
-                                "option_two" : "6",
-                                "option_three" : "4",
-                                "option_four" : "3"
+                                "option_one" : "Not Another Trade Organisation",
+                                "option_two" : "North Atlantic Trade Organisation",
+                                "option_three" : "North Alaska Tourist Office",
+                                "option_four" : "Never Again Turkey Oats"
                             },
                             "answer" : "option_two"
                         },
                         {
-                            "question" : "How many wives did Henry 8th have?",
+                            "question" : "What are the two main political parties in the USA",
                             "options" : {
-                                "option_one" : "8",
-                                "option_two" : "6",
-                                "option_three" : "4",
-                                "option_four" : "3"
+                                "option_one" : "Democrat and Republican",
+                                "option_two" : "Labour and Conservative",
+                                "option_three" : "Left and Right",
+                                "option_four" : "Up and Down"
                             },
-                            "answer" : "option_two"
+                            "answer" : "option_one"
                         },
                         {
-                            "question" : "How many wives did Henry 8th have?",
+                            "question" : "Which actor became the 38th Governor of California, USA in 2003?",
                             "options" : {
-                                "option_one" : "8",
-                                "option_two" : "6",
-                                "option_three" : "4",
-                                "option_four" : "3"
+                                "option_one" : "Will Smith",
+                                "option_two" : "Donald Trump",
+                                "option_three" : "Arnold Schwarzenegger",
+                                "option_four" : "Macaulay Culkin"
                             },
-                            "answer" : "option_two"
+                            "answer" : "option_three"
                         },
                         {
-                            "question" : "How many wives did Henry 8th have?",
+                            "question" : "Who was the first female Prime Minister of the UK?",
                             "options" : {
-                                "option_one" : "8",
-                                "option_two" : "6",
-                                "option_three" : "4",
-                                "option_four" : "3"
+                                "option_one" : "Theresa May",
+                                "option_two" : "Margaret Thatcher",
+                                "option_three" : "Angela Merkel",
+                                "option_four" : "Elizabeth Truss"
                             },
                             "answer" : "option_two"
                         }
@@ -680,42 +425,47 @@
                 "politics" : {
                     "questions" : [
                         {
-                            "question" : "How many wives did Henry 8th have?",
+                            "question" : "True or false, China is the world's largest democracy?",
+                            "type": "true_or_false",
+                            "answer" : "false"
+                        },
+                        {
+                            "question" : "Who was the only British Prime Minister to be assassinated?",
                             "options" : {
-                                "option_one" : "8",
-                                "option_two" : "6",
-                                "option_three" : "4",
-                                "option_four" : "3"
+                                "option_one" : "Margaret Thatcher",
+                                "option_two" : "Harold Wilson",
+                                "option_three" : "Anthony Eden",
+                                "option_four" : "Spencer Perceval"
+                            },
+                            "answer" : "option_four"
+                        },
+                        {
+                            "question" : "How many years is a French President elected for?",
+                            "options" : {
+                                "option_one" : "5",
+                                "option_two" : "4",
+                                "option_three" : "8",
+                                "option_four" : "6"
+                            },
+                            "answer" : "option_one"
+                        },
+                        {
+                            "question" : "Who was the only US President to have resigned from office?",
+                            "options" : {
+                                "option_one" : "Donald Trump",
+                                "option_two" : "Richard Nixon",
+                                "option_three" : "Bill Clinton",
+                                "option_four" : "Ronald Reagan"
                             },
                             "answer" : "option_two"
                         },
                         {
-                            "question" : "How many wives did Henry 8th have?",
+                            "question" : "Who was the only US President to have resigned from office?",
                             "options" : {
-                                "option_one" : "8",
-                                "option_two" : "6",
-                                "option_three" : "4",
-                                "option_four" : "3"
-                            },
-                            "answer" : "option_two"
-                        },
-                        {
-                            "question" : "How many wives did Henry 8th have?",
-                            "options" : {
-                                "option_one" : "8",
-                                "option_two" : "6",
-                                "option_three" : "4",
-                                "option_four" : "3"
-                            },
-                            "answer" : "option_two"
-                        },
-                        {
-                            "question" : "How many wives did Henry 8th have?",
-                            "options" : {
-                                "option_one" : "8",
-                                "option_two" : "6",
-                                "option_three" : "4",
-                                "option_four" : "3"
+                                "option_one" : "Donald Trump",
+                                "option_two" : "Richard Nixon",
+                                "option_three" : "Bill Clinton",
+                                "option_four" : "Ronald Reagan"
                             },
                             "answer" : "option_two"
                         }
