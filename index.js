@@ -26,7 +26,7 @@ function showAnalyticsToast() {
 
 
 function updateDifficultyDropdown() {
-    $("#hero-dropdown").text(getDifficulty() == "beginner" ? "Select difficulty: Beginner" : "Select difficulty: Expert");
+    $("#hero-dropdown").text(getDifficulty() == "beginner" ? "Difficulty: Beginner" : "Difficulty: Expert");
 }
 
 function loadTopicsList() {
