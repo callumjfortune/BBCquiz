@@ -26,5 +26,14 @@ export function getUrlParameter(parameter) {
     return value != null ? decodeURIComponent(value) : value;
 }
 
-
-// Difficulty get/set functions moved to `index.js` since they only apply to main page
+$(function() {
+    if (localStorage.getItem("nickname")) {
+        $("#signOutButton").removeClass("d-none");
+    }
+    
+    $("#signOutButton").on("click", function() {
+        localStorage.removeItem("nickname");
+    
+        window.location.reload();
+    });
+});

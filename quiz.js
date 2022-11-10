@@ -91,12 +91,16 @@ $(function() {
         $(".quizQuestions").append(
             questions.map((question, questionIndex) => $("<div class='card mb-2'>").append([
                 $("<div class='card-body'>").append([
-                    $("<h2 class='card-title h5'>").text(question.question),
                     question instanceof api.VideoQuizQuestion ? (
                         $("<iframe class='video'>")
                             .attr("src", question.videoUrl)
                             .attr("allowfullscreen", "true")
                             .attr("frameborder", "0")
+                    ) : null,
+                    $("<h2 class='card-title h5'>").text(question.question),
+                    question instanceof api.ImageQuizQuestion ? (
+                        $("<img width=100% class=mb-4>")
+                            .attr("src", question.imageUrl)
                     ) : null,
                     $("<div class='form-check'>").append(
                         Object.keys(question.options).map((optionId) => $("<div class='mb-2'>").append([
@@ -128,6 +132,12 @@ $(function() {
                             $(this).attr("disabled", "true");
 
                             var nickname = $("#nickname").val();
+
+                            if (nickname.trim() == "") {
+                                $("#quizSignUpError").text("Please enter a nickname if you want to be on the league table.");
+
+                                return;
+                            }
 
                             api.registerUser(nickname).then(function() {
                                 $("#quizSignUp").empty();

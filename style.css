@@ -122,6 +122,15 @@ h1 {
     height: 100%;
 }
 
+thead th {
+    background-color: rgba(0, 0, 0, 0.1)!important;
+}
+
+#analyticsViewerContainer {
+    max-width: 100%;
+    overflow: scroll;
+}
+
 *:not(.form-check-input) {
     border-radius: 0px !important;
 }
