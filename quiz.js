@@ -49,7 +49,7 @@ $(function() {
         $(".quizQuestions").append(
             questions.map((question, questionIndex) => $("<div class='card mb-2'>").append([
                 $("<div class='card-body'>").append([
-                    $("<h5 class='card-title'>").text(question.question),
+                    $("<h2 class='card-title h5'>").text(question.question),
                     question instanceof api.VideoQuizQuestion ? (
                         $("<iframe class='video'>")
                             .attr("src", question.videoUrl)
