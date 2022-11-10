@@ -7,6 +7,16 @@ var quizQuestions = null;
 var alreadySubmittedScore = false;
 var quizCorrelationId = common.generateKey();
 
+api.getTopics(difficulty).then(function (topics) {
+    var img_url = "";
+    topics.forEach(function(topic_data){
+        if(topic_data["id"] == topic) {
+            img_url = topic_data["info"]["image_url"];
+        }
+    });
+    $(".quiz-background").css("background-image", "url("+img_url+")");
+});
+
 $(".quizQuestions").submit(function( event )
 {
     event.preventDefault();
