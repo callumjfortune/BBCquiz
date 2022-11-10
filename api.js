@@ -32,6 +32,9 @@ export class QuizQuestion {
             case "true_or_false":
                 return new TrueOrFalseQuizQuestion(data.question, data.answer);
 
+            case "image":
+                return new ImageQuizQuestion(data.question, data.imageurl, data.options, data.answer);
+
             default:
                 throw new Error("Invalid question type");
         }
@@ -52,6 +55,14 @@ export class VideoQuizQuestion extends MultipleChoiceQuizQuestion {
         super(question, options, answer);
 
         this.videoUrl = videoUrl;
+    }
+}
+
+export class ImageQuizQuestion extends MultipleChoiceQuizQuestion {
+    constructor(question, imageurl, options, answer) {
+        super(question, options, answer);
+
+        this.imageUrl = imageurl;
     }
 }
 
