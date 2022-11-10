@@ -12,6 +12,9 @@ This is our quiz website project by James, Jakub and Callum.
 * Accessible (100% on Lighthouse) and works for screen readers and switch control/keyboard navigation
 * Tested with integration tests
 
+Achieved Version 5
+![Screenshot of requirements progression](docs/requirements_progression.png)
+
 ## Screenshots
 Topics page:
 ![Screenshot of topics page](docs/topicsscreenshot.png)
