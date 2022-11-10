@@ -34,7 +34,7 @@ $(".quizQuestions").submit(function( event )
                 $(`#quizQuestionCard_${questionIndex} .questionResult`).removeClass("d-none");
                 $(`#quizQuestionCard_${questionIndex} .questionResult`).addClass("alert-danger");
                 console.log(quizQuestions);
-                $(`#quizQuestionCard_${questionIndex} .questionResult`).text("Answer Incorrect! " + quizQuestions[questionIndex]["options"][quizQuestions[questionIndex]["answer"]]);
+                $(`#quizQuestionCard_${questionIndex} .questionResult`).text(`Answer Incorrect! The correct answer is: ${quizQuestions[questionIndex]["options"][quizQuestions[questionIndex]["answer"]]}`);
 
             
         }
