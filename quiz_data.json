@@ -5,47 +5,39 @@
                 "history" : {
                     "questions" : [
                         {
-                            "question" : "How many wives did Henry 8th have?",
+                            "type": "video",
+                            "videoUrl": "https://www.youtube.com/embed/dGiQaabX3_o?start=47&end=107&rel=0&fs=0",
+                            "question" : "How many years ago did the first homo genus emerge?",
                             "options" : {
-                                "option_one" : "8",
-                                "option_two" : "6",
-                                "option_three" : "4",
-                                "option_four" : "3"
+                                "option_one" : "6 million years ago",
+                                "option_two" : "2.8 million years ago",
+                                "option_three" : "200,000 years ago",
+                                "option_four" : "13.4 billion years ago"
                             },
                             "answer" : "option_two"
                         },
                         {
-                            "question" : "In which year did World War 2 begin?",
+                            "question" : "How many different 'homo' species existed at the 200,000 years ago?",
                             "options" : {
-                                "option_one" : "1914",
-                                "option_two" : "1939",
-                                "option_three" : "1945",
-                                "option_four" : "1918"
+                                "option_one" : "7",
+                                "option_two" : "6",
+                                "option_three" : "8",
+                                "option_four" : "1"
                             },
-                            "answer" : "option_three"
+                            "answer" : "option_one"
                         },
                         {
-                            "question" : "What year was the battle of Hastings?",
-                            "options" : {
-                                "option_one" : "1123",
-                                "option_two" : "1666",
-                                "option_three" : "1066",
-                                "option_four" : "987"
-                            },
-                            "answer" : "option_three"
+                            "question" : "True or false, homo erectus thrived for much longer than our current homo sapiens sapiens species",
+                            "type": "true_or_false",
+                            "answer": "true"
                         },
                         {
-                            "question" : "What was the name of the first man who stepped on the moon's surface?",
-                            "options" : {
-                                "option_one" : "Buzz Aldrin",
-                                "option_two" : "Louis Armstrong",
-                                "option_three" : "Tim Davie",
-                                "option_four" : "Neil Armstrong"
-                            },
-                            "answer" : "option_four"
+                            "question" : "True or false, analysis of modern human DNA suggests that there is NO evidence of inter-species mixing",
+                            "type": "true_or_false",
+                            "answer" : "false"
                         }
                     ],
-                    "type" : "multiple choice"
+                    "type" : "video"
                 },
                 "geography" : {
                     "questions" : [
