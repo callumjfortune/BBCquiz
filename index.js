@@ -26,7 +26,7 @@ function showAnalyticsToast() {
 
 
 function updateDifficultyDropdown() {
-    $("#hero-dropdown").text(getDifficulty() == "beginner" ? "Select difficulty: Beginner" : "Select difficulty: Expert");
+    $("#hero-dropdown").text(getDifficulty() == "beginner" ? "Difficulty: Beginner" : "Difficulty: Expert");
 }
 
 function loadTopicsList() {
@@ -40,7 +40,7 @@ function loadTopicsList() {
                             var responseData = data["difficulties"][getDifficulty()]["topics"][topic.id]["type"];
                             $("#"+topic.id+"-card").text(responseData);
                         })),
-                $("<img>")
+                $("<img alt=''>")
                     .attr("src", topic.info?.image_url)
                     .attr("height", "250")
                     .addClass("card-img-top img-cover image-cover-n rounded-0")
@@ -68,7 +68,7 @@ function loadTopicsList() {
                 $("<h1>").text("Oops, we can't load the quiz topics"),
                 $("<p>").text("It looks like we couldn't find the available topics for the selected difficulty. Check your connection to the internet and try again."),
                 $("<a class='btn btn-danger'>")
-                    .attr("href", "/")
+                    .attr("href", "index.html")
                     .text("Try again")
             ])
         ]);

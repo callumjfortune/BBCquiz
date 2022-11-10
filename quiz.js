@@ -7,6 +7,16 @@ var quizQuestions = null;
 var alreadySubmittedScore = false;
 var quizCorrelationId = common.generateKey();
 
+api.getTopics(difficulty).then(function (topics) {
+    var img_url = "";
+    topics.forEach(function(topic_data){
+        if(topic_data["id"] == topic) {
+            img_url = topic_data["info"]["image_url"];
+        }
+    });
+    $(".quiz-background").css("background-image", "url("+img_url+")");
+});
+
 $(".quizQuestions").submit(function( event )
 {
     event.preventDefault();
@@ -137,7 +147,7 @@ $(function() {
                                 $("#quizSignUp").append([
                                     $("<p>").text(`Thank you! You will now appear on the league table as ${nickname}.`),
                                     $("<a class='btn btn-primary'>")
-                                        .attr("href", "/league.html")
+                                        .attr("href", "league.html")
                                         .text("See the league table")
                                 ]);
                             }).catch(function(error) {
@@ -171,7 +181,7 @@ $(function() {
                 $("<h1>").text("Oops, we can't get that quiz"),
                 $("<p>").text("It looks like we couldn't find the quiz you wanted to play. Try going back to the topics list and selecting another quiz."),
                 $("<a class='btn btn-danger'>")
-                    .attr("href", "/")
+                    .attr("href", "index.html")
                     .text("Back to topics")
             ])
         ]);

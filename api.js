@@ -80,7 +80,7 @@ export function getQuizData() {
         return Promise.resolve(quizData);
     }
 
-    return fetch("/quiz_data.json").then(function(response) {
+    return fetch("quiz_data.json").then(function(response) {
         return response.json();
     }).then(function(data) {
         quizData = data;

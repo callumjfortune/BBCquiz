@@ -1,9 +1,9 @@
 @font-face {
     font-family: "BBC Reith Sans";
-    src: local("BBC Reith Sans"), url("/fonts/reithsans.woff2") format("woff2");
+    src: local("BBC Reith Sans"), url("fonts/reithsans.woff2") format("woff2");
 }
 
 @font-face {
     font-family: "BBC Reith Serif";
-    src: local("BBC Reith Serif"), url("/fonts/reithserif.woff2") format("woff2");
+    src: local("BBC Reith Serif"), url("fonts/reithserif.woff2") format("woff2");
 }
