@@ -2,6 +2,8 @@ import * as common from "./common.js";
 
 var quizData = null;
 
+export const SIGNED_IN_USER = undefined;
+
 export class Topic {
     constructor(id, data, info) {
         this.id = id;
@@ -152,6 +154,10 @@ export function registerUser(nickname) {
     });
 
     return Promise.resolve();
+}
+
+export function isSignedIn() {
+    return localStorage.getItem("nickname") != null;
 }
 
 export function getUserData(nickname = localStorage.getItem("nickname")) {

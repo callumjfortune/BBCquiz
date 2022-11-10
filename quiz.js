@@ -37,6 +37,12 @@ $(".quizQuestions").submit(function( event )
 
     $(".btn-success").text("Return to home");
     $(".btn-success").attr("onclick", "window.location.href = '/'");
+
+    if (api.isSignedIn()) {
+        api.getUserData().then(function(data) {
+            api.setUserData(api.SIGNED_IN_USER, {score: data.score + correctAnswers, attempts: data.attempts + 1});
+        });
+    }
     
 });
 
