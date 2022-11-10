@@ -44,7 +44,8 @@
                             },
                             "answer" : "option_four"
                         }
-                    ]
+                    ],
+                    "type" : "multi-choice"
                 },
                 "geography" : {
                     "questions" : [
@@ -98,7 +99,8 @@
                             },
                             "answer" : "option_three"
                         }
-                    ]
+                    ],
+                    "type" : "multi-choice"
                 },
                 "politics" : {
                     "questions" : [
@@ -142,7 +144,8 @@
                             },
                             "answer" : "option_two"
                         }
-                    ]
+                    ],
+                    "type" : "multi-choice"
                 },
                 "conservation" : {
                     "questions" : [
@@ -186,93 +189,94 @@
                             },
                             "answer" : "option_one"
                         }
-                    ]
+                    ],
+                    "type" : "multi-choice"
                 },
                 "celebrities" : {
                     "questions" : [
                         {
-                            "question" : "How many wives did Henry 8th have?",
+                            "question" : "Who is the actor in the 1976 thriller Taxi Driver, who ways, “'You talkin’ to me?'",
                             "options" : {
-                                "option_one" : "8",
-                                "option_two" : "6",
-                                "option_three" : "4",
-                                "option_four" : "3"
+                                "option_one" : "Robert De Niro",
+                                "option_two" : "Jim Carrey",
+                                "option_three" : "Noel Gallagher",
+                                "option_four" : "Daniel Craig"
+                            },
+                            "answer" : "option_one"
+                        },
+                        {
+                            "question" : "Who is the London-based actor who played the lead in Richard Attenborough’s film Gandhi and won a Best Actor Oscar?",
+                            "options" : {
+                                "option_one" : "Bruce Jenner",
+                                "option_two" : "Henry Tudor",
+                                "option_three" : "Sebastian Beattie",
+                                "option_four" : "Ben Kingsley"
+                            },
+                            "answer" : "option_four"
+                        },
+                        {
+                            "question" : "Which actress was known for the line, 'I want to be alone'?",
+                            "options" : {
+                                "option_one" : "Greta Thunberg",
+                                "option_two" : "Greta Garbo",
+                                "option_three" : "Gréta Arn",
+                                "option_four" : "Greta Chi"
                             },
                             "answer" : "option_two"
                         },
                         {
-                            "question" : "How many wives did Henry 8th have?",
+                            "question" : "Which actor acted in and wrote the screenplay for the movie Rocky?",
                             "options" : {
-                                "option_one" : "8",
-                                "option_two" : "6",
-                                "option_three" : "4",
-                                "option_four" : "3"
+                                "option_one" : "Phil McGraw (Dr Phil)",
+                                "option_two" : "Eminem",
+                                "option_three" : "Sylvester Stallone",
+                                "option_four" : "Vin Diesel"
                             },
-                            "answer" : "option_two"
-                        },
-                        {
-                            "question" : "How many wives did Henry 8th have?",
-                            "options" : {
-                                "option_one" : "8",
-                                "option_two" : "6",
-                                "option_three" : "4",
-                                "option_four" : "3"
-                            },
-                            "answer" : "option_two"
-                        },
-                        {
-                            "question" : "How many wives did Henry 8th have?",
-                            "options" : {
-                                "option_one" : "8",
-                                "option_two" : "6",
-                                "option_three" : "4",
-                                "option_four" : "3"
-                            },
-                            "answer" : "option_two"
+                            "answer" : "option_three"
                         }
                     ]
                 },
                 "law" : {
                     "questions" : [
                         {
-                            "question" : "How many wives did Henry 8th have?",
+                            "question" : "What is the age of criminal responsibility in the UK?",
                             "options" : {
                                 "option_one" : "8",
-                                "option_two" : "6",
-                                "option_three" : "4",
-                                "option_four" : "3"
+                                "option_two" : "10",
+                                "option_three" : "16",
+                                "option_four" : "18"
                             },
                             "answer" : "option_two"
                         },
                         {
-                            "question" : "How many wives did Henry 8th have?",
+                            "question" : "How many years after an author's death does a copyright last?",
                             "options" : {
-                                "option_one" : "8",
-                                "option_two" : "6",
-                                "option_three" : "4",
-                                "option_four" : "3"
+                                "option_one" : "20",
+                                "option_two" : "30",
+                                "option_three" : "45",
+                                "option_four" : "70"
+                            },
+                            "answer" : "option_four"
+                        },
+                        {
+                            "question" : "As of 1313 it is illegal to enter the houses of Parliament wearing what?",
+                            "options" : {
+                                "option_one" : "A Greggs hoodie from Primark",
+                                "option_two" : "A suit of armour",
+                                "option_three" : "The catsuit from the music video for Britney Spears - Oops I did it again",
+                                "option_four" : "A bow tie"
                             },
                             "answer" : "option_two"
                         },
                         {
-                            "question" : "How many wives did Henry 8th have?",
+                            "question" : "The UK law requiring all drivers to wear seatbelts came in to force in January of which year?",
                             "options" : {
-                                "option_one" : "8",
-                                "option_two" : "6",
-                                "option_three" : "4",
-                                "option_four" : "3"
+                                "option_one" : "1983",
+                                "option_two" : "1972",
+                                "option_three" : "1986",
+                                "option_four" : "1994"
                             },
-                            "answer" : "option_two"
-                        },
-                        {
-                            "question" : "How many wives did Henry 8th have?",
-                            "options" : {
-                                "option_one" : "8",
-                                "option_two" : "6",
-                                "option_three" : "4",
-                                "option_four" : "3"
-                            },
-                            "answer" : "option_two"
+                            "answer" : "option_one"
                         }
                     ]
                 },
