@@ -88,6 +88,10 @@ $(function() {
                             .attr("allowfullscreen", "true")
                             .attr("frameborder", "0")
                     ) : null,
+                    question instanceof api.ImageQuizQuestion ? (
+                        $("<img width=100% class=mb-4>")
+                            .attr("src", question.imageUrl)
+                    ) : null,
                     $("<div class='form-check'>").append(
                         Object.keys(question.options).map((optionId) => $("<div class='mb-2'>").append([
                             $("<input type='radio' class='form-check-input'>")
