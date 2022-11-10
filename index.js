@@ -40,7 +40,7 @@ function loadTopicsList() {
                             var responseData = data["difficulties"][getDifficulty()]["topics"][topic.id]["type"];
                             $("#"+topic.id+"-card").text(responseData);
                         })),
-                $("<img>")
+                $("<img alt=''>")
                     .attr("src", topic.info?.image_url)
                     .attr("height", "250")
                     .addClass("card-img-top img-cover image-cover-n rounded-0")
