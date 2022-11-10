@@ -15,13 +15,21 @@ window.setDifficulty = function(difficulty) {
     loadTopicType();
 };
 
+function showAnalyticsToast() {
+    var new_visitor = localStorage.getItem("first_visit") || true;
+    if (new_visitor != "true") 
+    { 
+        $("#analyticsToast").toast("show");
+        localStorage.setItem("first_visit", true);
+    }
+};
+
+
 function updateDifficultyDropdown() {
     $("#hero-dropdown").text(getDifficulty() == "beginner" ? "Select difficulty: Beginner" : "Select difficulty: Expert");
 }
 
 function loadTopicsList() {
-    console.log(`Loading topics list for difficulty "${getDifficulty()}"...`);
-
     return api.getTopics(getDifficulty()).then(function(topics) {
         $(".topicsList").empty();
 
@@ -70,4 +78,5 @@ function loadTopicsList() {
 $(function() {
     updateDifficultyDropdown();
     loadTopicsList();
+    showAnalyticsToast();
 });
