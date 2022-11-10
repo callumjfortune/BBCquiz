@@ -53,6 +53,10 @@ h1 {
     background-color: var(--bs-card-cap-bg);
 }
 
+.leagueTable .card .flex-fill {
+    max-width: calc(100% - 3rem);
+}
+
 .leagueTable .card:nth-child(1) {
     border: 1px solid rgba(255, 215, 0, 1);
 }
