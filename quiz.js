@@ -81,13 +81,13 @@ $(function() {
         $(".quizQuestions").append(
             questions.map((question, questionIndex) => $("<div class='card mb-2'>").append([
                 $("<div class='card-body'>").append([
-                    $("<h2 class='card-title h5'>").text(question.question),
                     question instanceof api.VideoQuizQuestion ? (
                         $("<iframe class='video'>")
                             .attr("src", question.videoUrl)
                             .attr("allowfullscreen", "true")
                             .attr("frameborder", "0")
                     ) : null,
+                    $("<h2 class='card-title h5'>").text(question.question),
                     question instanceof api.ImageQuizQuestion ? (
                         $("<img width=100% class=mb-4>")
                             .attr("src", question.imageUrl)
