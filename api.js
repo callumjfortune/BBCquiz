@@ -138,3 +138,54 @@ export function sendAnalyticsEvent(eventType, eventData) {
         return data;
     });
 }
+
+export function registerUser(nickname) {
+    var users = common.getStorageData("users").users || {};
+
+    if (users[nickname]) {
+        return Promise.reject("User already exists");
+    }
+
+    common.editStorageData("users", function(data) {
+        data.users ||= {};
+        data.users[nickname] = {score: 0, attempts: 0};
+    });
+
+    return Promise.resolve();
+}
+
+export function getUserData(nickname = localStorage.getItem("nickname")) {
+    var users = common.getStorageData("users").users || {};
+
+    if (!users[nickname]) {
+        return Promise.reject("User does not exist");
+    }
+
+    return Promise.resolve(users[nickname]);
+}
+
+export function setUserData(nickname = localStorage.getItem("nickname"), data) {
+    var users = common.getStorageData("users").users || {};
+
+    if (!users[nickname]) {
+        return Promise.reject("User does not exist");
+    }
+
+    if (typeof(data) != "object") {
+        return Promise.reject("Data must be an object to merge into existing user data");
+    }
+
+    common.editStorageData("users", function(userData) {
+        userData.users[nickname] = {...userData.users[nickname], ...data};
+    });
+
+    return Promise.resolve();
+}
+
+export function getLeagueTable() {
+    var users = common.getStorageData("users").users || {};
+
+    return Promise.resolve(Object.keys(users).map(function(nickname) {
+        return {nickname, ...users[nickname]};
+    }).sort((a, b) => b.score - a.score)); // Sort descending
+}
