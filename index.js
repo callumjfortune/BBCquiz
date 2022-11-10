@@ -68,7 +68,7 @@ function loadTopicsList() {
                 $("<h1>").text("Oops, we can't load the quiz topics"),
                 $("<p>").text("It looks like we couldn't find the available topics for the selected difficulty. Check your connection to the internet and try again."),
                 $("<a class='btn btn-danger'>")
-                    .attr("href", "/")
+                    .attr("href", "index.html")
                     .text("Try again")
             ])
         ]);

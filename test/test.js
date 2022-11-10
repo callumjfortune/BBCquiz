@@ -10,7 +10,7 @@ QUnit.module("Api Tests", hooks => {
         this.topicInfoStub = {
             title:"TestTopic",
             description: "None",
-            image_url: "/media/topics/celebrities.jpeg"
+            image_url: "media/topics/celebrities.jpeg"
         };
     });
 

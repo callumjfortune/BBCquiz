@@ -1,6 +1,6 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css");
 
-@import url("/fonts.css");
+@import url("fonts.css");
 
 :root {
     --bs-font-sans-serif: "BBC Reith Sans", sans-serif;

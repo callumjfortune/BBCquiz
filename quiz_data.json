@@ -645,37 +645,37 @@
         "history" : {
             "title" : "Horrible Histories Quiz",
             "description" : "From Tudor periods to the Middle Ages, find out if you're the next Herodotus in this quiz!",
-            "image_url" : "/media/topics/history.jpeg"
+            "image_url" : "media/topics/history.jpeg"
         },
         "geography" : {
             "title" : "World Geography Quiz",
             "description" : "Our planet is a vast place with billions of people. How much do you really know about our world?",
-            "image_url" : "/media/topics/geography.webp"
+            "image_url" : "media/topics/geography.webp"
         },
         "politics" : {
             "title" : "Global Politics Quiz",
             "description" : "From the UK to around the world, test out your knowledge on the politics of yesterday and today.",
-            "image_url" : "/media/topics/politics.jpeg"
+            "image_url" : "media/topics/politics.jpeg"
         },
         "conservation" : {
             "title" : "Blue Planet Quiz",
             "description" : "With our climate in crisis, our planet is becoming uninhabitable. See how bad it is in reality.",
-            "image_url" : "/media/topics/conservation.jpeg"
+            "image_url" : "media/topics/conservation.jpeg"
         },
         "celebrities" : {
             "title" : "Big Celebrities Quiz",
             "description" : "They're across our television and radio screens — find out if you can keep up with celeb gossip!",
-            "image_url" : "/media/topics/celebrities.jpeg"
+            "image_url" : "media/topics/celebrities.jpeg"
         },
         "law" : {
             "title" : "Legal Action Quiz",
             "description" : "The law keeps our world running with justice being served. How much do you know about the law?",
-            "image_url" : "/media/topics/law.jpeg"
+            "image_url" : "media/topics/law.jpeg"
         },
         "sport" : {
             "title" : "Sport Fans Quiz",
             "description" : "From Football to Formula 1, find out how much you know about the big players in global sports!",
-            "image_url" : "/media/topics/sport.jpeg"
+            "image_url" : "media/topics/sport.jpeg"
         }
     }
 }
