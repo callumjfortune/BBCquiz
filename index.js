@@ -12,6 +12,7 @@ window.setDifficulty = function(difficulty) {
 
     updateDifficultyDropdown();
     loadTopicsList(); // We have to re-call this function so that the URL queries in the links for each topic are updated to reflect the chosen difficulty
+    loadTopicType();
 };
 
 function updateDifficultyDropdown() {
@@ -26,6 +27,11 @@ function loadTopicsList() {
 
         $(".topicsList").append(topics.map((topic) => $("<div class='col'>").append([
             $("<div class='card rounded-0'>").append([
+                    $("<div class='quiz-type-tag' id='"+topic.id+"-card' >")
+                        .text(api.getQuizData().then(function (data) {
+                            var responseData = data["difficulties"][getDifficulty()]["topics"][topic.id]["type"];
+                            $("#"+topic.id+"-card").text(responseData);
+                        })),
                 $("<img>")
                     .attr("src", topic.info?.image_url)
                     .attr("height", "250")

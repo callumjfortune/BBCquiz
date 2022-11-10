@@ -45,7 +45,7 @@
                             "answer" : "option_four"
                         }
                     ],
-                    "type" : "multi-choice"
+                    "type" : "multiple choice"
                 },
                 "geography" : {
                     "questions" : [
@@ -100,7 +100,7 @@
                             "answer" : "option_three"
                         }
                     ],
-                    "type" : "multi-choice"
+                    "type" : "multiple choice"
                 },
                 "politics" : {
                     "questions" : [
@@ -145,7 +145,7 @@
                             "answer" : "option_two"
                         }
                     ],
-                    "type" : "multi-choice"
+                    "type" : "multiple choice"
                 },
                 "conservation" : {
                     "questions" : [
@@ -190,7 +190,7 @@
                             "answer" : "option_one"
                         }
                     ],
-                    "type" : "multi-choice"
+                    "type" : "multiple choice"
                 },
                 "celebrities" : {
                     "questions" : [
@@ -235,7 +235,7 @@
                             "answer" : "option_three"
                         }
                     ],
-                    "type" : "multi-choice"
+                    "type" : "multiple choice"
                 },
                 "law" : {
                     "questions" : [
@@ -280,7 +280,7 @@
                             "answer" : "option_one"
                         }
                     ],
-                    "type" : "multi-choice"
+                    "type" : "multiple choice"
                 },
                 "sport" : {
                     "questions" : [
@@ -320,7 +320,7 @@
                             "answer" : "true"
                         }
                     ],
-                    "type" : "multi-choice"
+                    "type" : "multiple choice"
                 }
             }
         },   
@@ -369,7 +369,7 @@
                             "answer" : "option_one"
                         }
                     ],
-                    "type" : "multi-choice"
+                    "type" : "multiple choice"
                 },
                 "geography" : {
                     "questions" : [
@@ -424,7 +424,7 @@
                             "answer" : "option_two"
                         }
                     ],
-                    "type" : "multi-choice"
+                    "type" : "multiple choice"
                 },
                 "politics" : {
                     "questions" : [
@@ -474,7 +474,7 @@
                             "answer" : "option_two"
                         }
                     ],
-                    "type" : "multi-choice"
+                    "type" : "multiple choice"
                 },
                 "conservation" : {
                     "questions" : [
@@ -519,7 +519,7 @@
                             "answer" : "option_three"
                         }
                     ],
-                    "type" : "multi-choice"
+                    "type" : "multiple choice"
                 },
                 "celebrities" : {
                     "questions" : [
@@ -564,7 +564,7 @@
                             "answer" : "option_two"
                         }
                     ],
-                    "type" : "multi-choice"
+                    "type" : "multiple choice"
                 },
                 "law" : {
                     "questions" : [
@@ -609,7 +609,7 @@
                             "answer" : "option_three"
                         }
                     ],
-                    "type" : "multi-choice"
+                    "type" : "multiple choice"
                 },
                 "sport" : {
                     "questions" : [
@@ -654,7 +654,7 @@
                             "answer" : "option_two"
                         }
                     ],
-                    "type" : "multi-choice"
+                    "type" : "multiple choice"
                 }
             }
         }
