@@ -349,7 +349,7 @@
                             "answer" : "option_one"
                         },
                         {
-                            "question" : "How many days were the in a week in ancient Roman times?",
+                            "question" : "How many days were there in a week in ancient Roman times?",
                             "options" : {
                                 "option_one" : "7",
                                 "option_two" : "5",
