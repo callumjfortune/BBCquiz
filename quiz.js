@@ -115,6 +115,12 @@ $(function() {
 
                             var nickname = $("#nickname").val();
 
+                            if (nickname.trim() == "") {
+                                $("#quizSignUpError").text("Please enter a nickname if you want to be on the league table.");
+
+                                return;
+                            }
+
                             api.registerUser(nickname).then(function() {
                                 $("#quizSignUp").empty();
 
