@@ -62,7 +62,7 @@ export class TrueOrFalseQuizQuestion extends MultipleChoiceQuizQuestion {
     }
 }
 
-function getQuizData() {
+export function getQuizData() {
     if (quizData != null) {
         return Promise.resolve(quizData);
     }
@@ -86,7 +86,6 @@ export function getTopics(difficulty) {
 
         return Promise.resolve(Object.keys(difficultyData.topics).map(function(topicId) {
             var topicData = difficultyData.topics[topicId];
-
             return new Topic(topicId, topicData, quizData.topic_info[topicId]);
         }));
     });
@@ -137,4 +136,8 @@ export function sendAnalyticsEvent(eventType, eventData) {
 
         return data;
     });
+}
+
+export function loadTopicTypes() {
+
 }
