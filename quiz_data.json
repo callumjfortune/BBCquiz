@@ -147,44 +147,44 @@
                 "conservation" : {
                     "questions" : [
                         {
-                            "question" : "How many wives did Henry 8th have?",
+                            "question" : "Found mainly in the Amazon rainforest of South America, which spotted cat's name comes from the native word meaning “he who kills with one leap”?",
                             "options" : {
-                                "option_one" : "8",
-                                "option_two" : "6",
-                                "option_three" : "4",
-                                "option_four" : "3"
+                                "option_one" : "Cheetah",
+                                "option_two" : "Leopard",
+                                "option_three" : "Puma",
+                                "option_four" : "Jaguar"
+                            },
+                            "answer" : "option_four"
+                        },
+                        {
+                            "question" : "With their webbed feet and dense fur, which of these animals is perfectly adapted to life on the river?",
+                            "options" : {
+                                "option_one" : "Walrus",
+                                "option_two" : "Sea Lion",
+                                "option_three" : "Otter",
+                                "option_four" : "Leopard Seal"
+                            },
+                            "answer" : "option_three"
+                        },
+                        {
+                            "question" : "Found in the Indonesian islands of Rinca, Flores, Gili Motang, and Komodo, the Komodo Dragon is a type of ____.",
+                            "options" : {
+                                "option_one" : "Frog",
+                                "option_two" : "Lizard",
+                                "option_three" : "Snake",
+                                "option_four" : "Spider"
                             },
                             "answer" : "option_two"
                         },
                         {
-                            "question" : "How many wives did Henry 8th have?",
+                            "question" : "The elephant is the heaviest land animal in the world. Weighing up to almost 8,000 pounds, which is the second heaviest land animal?",
                             "options" : {
-                                "option_one" : "8",
-                                "option_two" : "6",
-                                "option_three" : "4",
-                                "option_four" : "3"
+                                "option_one" : "Rhinoceros",
+                                "option_two" : "Bison",
+                                "option_three" : "Hippopotamus",
+                                "option_four" : "Giraffe"
                             },
-                            "answer" : "option_two"
-                        },
-                        {
-                            "question" : "How many wives did Henry 8th have?",
-                            "options" : {
-                                "option_one" : "8",
-                                "option_two" : "6",
-                                "option_three" : "4",
-                                "option_four" : "3"
-                            },
-                            "answer" : "option_two"
-                        },
-                        {
-                            "question" : "How many wives did Henry 8th have?",
-                            "options" : {
-                                "option_one" : "8",
-                                "option_two" : "6",
-                                "option_three" : "4",
-                                "option_four" : "3"
-                            },
-                            "answer" : "option_two"
+                            "answer" : "option_one"
                         }
                     ]
                 },
@@ -469,86 +469,86 @@
                 "conservation" : {
                     "questions" : [
                         {
-                            "question" : "How many wives did Henry 8th have?",
+                            "question" : "What does the term biodiversity mean?",
                             "options" : {
-                                "option_one" : "8",
-                                "option_two" : "6",
-                                "option_three" : "4",
-                                "option_four" : "3"
+                                "option_one" : "The total variety of all life on earth",
+                                "option_two" : "Lots of wild habitats",
+                                "option_three" : "Different types of species",
+                                "option_four" : "The variety of characteristics within a species"
                             },
-                            "answer" : "option_two"
+                            "answer" : "option_one"
                         },
                         {
-                            "question" : "How many wives did Henry 8th have?",
+                            "question" : "What covers one third of the land’s surface, and helps to keep the climate stable by storing carbon?",
                             "options" : {
-                                "option_one" : "8",
-                                "option_two" : "6",
-                                "option_three" : "4",
-                                "option_four" : "3"
+                                "option_one" : "Forests",
+                                "option_two" : "Deserts",
+                                "option_three" : "Grasslands",
+                                "option_four" : "Oceans"
                             },
-                            "answer" : "option_two"
+                            "answer" : "option_one"
                         },
                         {
-                            "question" : "How many wives did Henry 8th have?",
+                            "question" : "All life on earth depends on freshwater almost all of which is locked up in ice caps, glaciers or buried deep underground. How much of the water on our planet is freshwater?",
                             "options" : {
-                                "option_one" : "8",
-                                "option_two" : "6",
-                                "option_three" : "4",
-                                "option_four" : "3"
+                                "option_one" : "Less than 3%",
+                                "option_two" : "Around 5%",
+                                "option_three" : "Around 15%",
+                                "option_four" : "More than 25%"
                             },
-                            "answer" : "option_two"
+                            "answer" : "option_one"
                         },
                         {
-                            "question" : "How many wives did Henry 8th have?",
+                            "question" : "How many large dams are there in the world?",
                             "options" : {
-                                "option_one" : "8",
-                                "option_two" : "6",
-                                "option_three" : "4",
-                                "option_four" : "3"
+                                "option_one" : "200",
+                                "option_two" : "1,000",
+                                "option_three" : "57,000",
+                                "option_four" : "73,000"
                             },
-                            "answer" : "option_two"
+                            "answer" : "option_three"
                         }
                     ]
                 },
                 "celebrities" : {
                     "questions" : [
                         {
-                            "question" : "How many wives did Henry 8th have?",
+                            "question" : "What well-known Hollywood couple starred in the film Who’s Afraid of Virginia Woolf?",
                             "options" : {
-                                "option_one" : "8",
-                                "option_two" : "6",
-                                "option_three" : "4",
-                                "option_four" : "3"
+                                "option_one" : "Tom Hanks and Rita Wilson",
+                                "option_two" : "Beyoné and Jay-z",
+                                "option_three" : "Richard Burton and Elizabeth Taylor",
+                                "option_four" : "Blake Lively and Ryan Reynolds"
                             },
                             "answer" : "option_two"
                         },
                         {
-                            "question" : "How many wives did Henry 8th have?",
+                            "question" : "Which celebrity mum has a daughter named Apple Martin?",
                             "options" : {
-                                "option_one" : "8",
-                                "option_two" : "6",
-                                "option_three" : "4",
-                                "option_four" : "3"
+                                "option_one" : "Patsy Kensit",
+                                "option_two" : "Gwyneth Paltrow",
+                                "option_three" : "Jerry Hall",
+                                "option_four" : "Kate Moss"
                             },
                             "answer" : "option_two"
                         },
                         {
-                            "question" : "How many wives did Henry 8th have?",
+                            "question" : "Who played Katniss Everdeen in the Hunger Games",
                             "options" : {
-                                "option_one" : "8",
-                                "option_two" : "6",
-                                "option_three" : "4",
-                                "option_four" : "3"
+                                "option_one" : "Jennifer Lawrence",
+                                "option_two" : "Jennifer Aniston",
+                                "option_three" : "Jennifer Lopez",
+                                "option_four" : "Harry Hill"
                             },
-                            "answer" : "option_two"
+                            "answer" : "option_one"
                         },
                         {
-                            "question" : "How many wives did Henry 8th have?",
+                            "question" : "Which comedian married Elliott Spencer on the 17th of January 2015?",
                             "options" : {
-                                "option_one" : "8",
-                                "option_two" : "6",
-                                "option_three" : "4",
-                                "option_four" : "3"
+                                "option_one" : "Jimmy Carr",
+                                "option_two" : "Stephen Fry",
+                                "option_three" : "Michael McIntyre",
+                                "option_four" : "Russell Howard"
                             },
                             "answer" : "option_two"
                         }
@@ -557,44 +557,44 @@
                 "law" : {
                     "questions" : [
                         {
-                            "question" : "How many wives did Henry 8th have?",
+                            "question" : "In which decade in Ireland were women first legally allowed to own their homes outright?",
                             "options" : {
-                                "option_one" : "8",
-                                "option_two" : "6",
-                                "option_three" : "4",
-                                "option_four" : "3"
+                                "option_one" : "1970's",
+                                "option_two" : "1960's",
+                                "option_three" : "1980's",
+                                "option_four" : "1950's"
                             },
-                            "answer" : "option_two"
+                            "answer" : "option_one"
                         },
                         {
-                            "question" : "How many wives did Henry 8th have?",
+                            "question" : "In which decade of the 19th-century was the last British convict transported to Australia?",
                             "options" : {
-                                "option_one" : "8",
-                                "option_two" : "6",
-                                "option_three" : "4",
-                                "option_four" : "3"
+                                "option_one" : "1850's",
+                                "option_two" : "1840's",
+                                "option_three" : "1760's",
+                                "option_four" : "1770's"
                             },
-                            "answer" : "option_two"
+                            "answer" : "option_one"
                         },
                         {
-                            "question" : "How many wives did Henry 8th have?",
+                            "question" : "In which Asian country has a chewing gum sales ban been in place since 1992?",
                             "options" : {
-                                "option_one" : "8",
-                                "option_two" : "6",
-                                "option_three" : "4",
-                                "option_four" : "3"
+                                "option_one" : "Singapore",
+                                "option_two" : "China",
+                                "option_three" : "India",
+                                "option_four" : "Thailand"
                             },
-                            "answer" : "option_two"
+                            "answer" : "option_one"
                         },
                         {
-                            "question" : "How many wives did Henry 8th have?",
+                            "question" : "A deemster is a judge in which part of the United Kingdom?",
                             "options" : {
-                                "option_one" : "8",
-                                "option_two" : "6",
-                                "option_three" : "4",
-                                "option_four" : "3"
+                                "option_one" : "Liverpool",
+                                "option_two" : "Norwich",
+                                "option_three" : "Isle of Man",
+                                "option_four" : "Shetland Islands"
                             },
-                            "answer" : "option_two"
+                            "answer" : "option_three"
                         }
                     ]
                 },
