@@ -80,11 +80,11 @@ $(function() {
 
         api.sendAnalyticsEvent("loadQuiz", {topic, difficulty});
     }).catch(function(error) {
-        console.log(error);
+        console.error(error);
 
-        $(".quizForm").empty();
+        $(".quizQuestions").empty();
 
-        $(".quizForm").append([
+        $(".quizQuestions").append([
             $("<div class='alert alert-danger'>").append([
                 $("<h1>").text("Oops, we can't get that quiz"),
                 $("<p>").text("It looks like we couldn't find the quiz you wanted to play. Try going back to the topics list and selecting another quiz."),
