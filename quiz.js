@@ -4,6 +4,7 @@ import * as api from "./api.js";
 var difficulty = common.getUrlParameter("difficulty");
 var topic = common.getUrlParameter("topic");
 var quizQuestions = null;
+var quizCorrelationId = common.generateKey();
 
 $(".quizQuestions").submit(function( event )
 {
@@ -11,10 +12,14 @@ $(".quizQuestions").submit(function( event )
     var data = new FormData(event.target);
 
     var correctAnswers = 0;
+    var attemptedAnswers = 0;
 
     for (const value of data.entries())
     {   
         var questionIndex = value[0].split('_')[1];
+
+        attemptedAnswers++;
+
         if (quizQuestions[questionIndex].answer === value[1])
         {
             correctAnswers ++;
@@ -37,6 +42,24 @@ $(".quizQuestions").submit(function( event )
 
     $(".btn-success").text("Return to home");
     $(".btn-success").attr("onclick", "window.location.href = '/'");
+
+    api.sendAnalyticsEvent("completeQuiz", {
+        topic,
+        difficulty,
+        quizCorrelationId,
+        correctAnswers,
+        attemptedAnswers,
+        questionCount: quizQuestions.length,
+        multipleChoiceQuestionsPresent: quizQuestions.filter((question) => question instanceof api.MultipleChoiceQuizQuestion).length,
+        videoQuestionsPresent: quizQuestions.filter((question) => question instanceof api.VideoQuizQuestion).length,
+        trueOrFalseQuestionsPresent: quizQuestions.filter((question) => question instanceof api.TrueOrFalseQuizQuestion).length
+    });
+
+    if (api.isSignedIn()) {
+        api.getUserData().then(function(data) {
+            api.setUserData(api.SIGNED_IN_USER, {score: data.score + correctAnswers, attempts: data.attempts + 1});
+        });
+    }
     
 });
 
@@ -49,7 +72,7 @@ $(function() {
         $(".quizQuestions").append(
             questions.map((question, questionIndex) => $("<div class='card mb-2'>").append([
                 $("<div class='card-body'>").append([
-                    $("<h5 class='card-title'>").text(question.question),
+                    $("<h2 class='card-title h5'>").text(question.question),
                     question instanceof api.VideoQuizQuestion ? (
                         $("<iframe class='video'>")
                             .attr("src", question.videoUrl)
@@ -78,7 +101,15 @@ $(function() {
             $("<button class='btn btn-success' type='submit' >Submit Answers</button>")
         );
 
-        api.sendAnalyticsEvent("loadQuiz", {topic, difficulty});
+        api.sendAnalyticsEvent("loadQuiz", {
+            topic,
+            difficulty,
+            quizCorrelationId,
+            questionCount: quizQuestions.length,
+            multipleChoiceQuestionsPresent: quizQuestions.filter((question) => question instanceof api.MultipleChoiceQuizQuestion).length,
+            videoQuestionsPresent: quizQuestions.filter((question) => question instanceof api.VideoQuizQuestion).length,
+            trueOrFalseQuestionsPresent: quizQuestions.filter((question) => question instanceof api.TrueOrFalseQuizQuestion).length
+        });
     }).catch(function(error) {
         console.error(error);
 

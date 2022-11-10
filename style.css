@@ -37,9 +37,44 @@ h1 {
     padding-bottom: 4rem;
 }
 
+.hero-small {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
 .video {
     width: 100%;
     aspect-ratio: 25 / 18;
+}
+
+.leagueTable .card .index {
+    width: 3rem;
+    text-align: end;
+    background-color: var(--bs-card-cap-bg);
+}
+
+.leagueTable .card:nth-child(1) {
+    border: 1px solid rgba(255, 215, 0, 1);
+}
+
+.leagueTable .card:nth-child(1) .index {
+    background-color: rgba(255, 215, 0, 0.4);
+}
+
+.leagueTable .card:nth-child(2) {
+    border: 1px solid rgba(192, 192, 192, 1);
+}
+
+.leagueTable .card:nth-child(2) .index {
+    background-color: rgba(192, 192, 192, 0.4);
+}
+
+.leagueTable .card:nth-child(3) {
+    border: 1px solid rgba(205, 127, 50, 1);
+}
+
+.leagueTable .card:nth-child(3) .index {
+    background-color: rgba(205, 127, 50, 0.4);
 }
 
 *:not(.form-check-input) {

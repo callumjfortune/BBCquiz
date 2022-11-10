@@ -1,3 +1,7 @@
+export function getStorageData(item) {
+    return JSON.parse(localStorage.getItem(item)) || {};
+}
+
 export function editStorageData(item, callback) {
     var data = JSON.parse(localStorage.getItem(item)) || {};
 
