@@ -30,9 +30,13 @@ $(".quizQuestions").submit(function( event )
             
         }else
         {
-            $(`#quizQuestionCard_${questionIndex} .questionResult`).removeClass("d-none");
-            $(`#quizQuestionCard_${questionIndex} .questionResult`).addClass("alert-danger");
-            $(`#quizQuestionCard_${questionIndex} .questionResult`).text("Answer Incorrect!");
+
+                $(`#quizQuestionCard_${questionIndex} .questionResult`).removeClass("d-none");
+                $(`#quizQuestionCard_${questionIndex} .questionResult`).addClass("alert-danger");
+                console.log(quizQuestions);
+                $(`#quizQuestionCard_${questionIndex} .questionResult`).text("Answer Incorrect! " + quizQuestions[questionIndex]["options"][quizQuestions[questionIndex]["answer"]]);
+
+            
         }
 
         
