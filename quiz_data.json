@@ -50,7 +50,7 @@
                 "geography" : {
                     "questions" : [
                         {
-                            "question" : "Where is the talles mountain in the world located?",
+                            "question" : "Where is the tallest mountain in the world located?",
                             "options" : {
                                 "option_one" : "Nepal",
                                 "option_two" : "Tanzania",
@@ -115,7 +115,7 @@
                             "answer" : "option_two"
                         },
                         {
-                            "question" : "What are the two main political parties in the USA",
+                            "question" : "What are the two main political parties in the USA?",
                             "options" : {
                                 "option_one" : "Democrat and Republican",
                                 "option_two" : "Labour and Conservative",
@@ -384,7 +384,7 @@
                             "answer" : "option_three"
                         },
                         {
-                            "question" : "Which season does Australia experience in December ",
+                            "question" : "Which season does Australia experience in December?",
                             "options" : {
                                 "option_one" : "Winter",
                                 "option_two" : "Autumn",
@@ -452,16 +452,6 @@
                                 "option_four" : "6"
                             },
                             "answer" : "option_one"
-                        },
-                        {
-                            "question" : "Who was the only US President to have resigned from office?",
-                            "options" : {
-                                "option_one" : "Donald Trump",
-                                "option_two" : "Richard Nixon",
-                                "option_three" : "Bill Clinton",
-                                "option_four" : "Ronald Reagan"
-                            },
-                            "answer" : "option_two"
                         },
                         {
                             "question" : "Who was the only US President to have resigned from office?",
@@ -544,7 +534,7 @@
                             "answer" : "option_two"
                         },
                         {
-                            "question" : "Who played Katniss Everdeen in the Hunger Games",
+                            "question" : "Who played Katniss Everdeen in the Hunger Games?",
                             "options" : {
                                 "option_one" : "Jennifer Lawrence",
                                 "option_two" : "Jennifer Aniston",
