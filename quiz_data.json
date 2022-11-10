@@ -234,7 +234,8 @@
                             },
                             "answer" : "option_three"
                         }
-                    ]
+                    ],
+                    "type" : "multi-choice"
                 },
                 "law" : {
                     "questions" : [
@@ -278,7 +279,8 @@
                             },
                             "answer" : "option_one"
                         }
-                    ]
+                    ],
+                    "type" : "multi-choice"
                 },
                 "sport" : {
                     "questions" : [
@@ -317,7 +319,8 @@
                             "type": "true_or_false",
                             "answer" : "true"
                         }
-                    ]
+                    ],
+                    "type" : "multi-choice"
                 }
             }
         },   
@@ -365,7 +368,8 @@
                             },
                             "answer" : "option_one"
                         }
-                    ]
+                    ],
+                    "type" : "multi-choice"
                 },
                 "geography" : {
                     "questions" : [
@@ -419,7 +423,8 @@
                             },
                             "answer" : "option_two"
                         }
-                    ]
+                    ],
+                    "type" : "multi-choice"
                 },
                 "politics" : {
                     "questions" : [
@@ -468,7 +473,8 @@
                             },
                             "answer" : "option_two"
                         }
-                    ]
+                    ],
+                    "type" : "multi-choice"
                 },
                 "conservation" : {
                     "questions" : [
@@ -512,7 +518,8 @@
                             },
                             "answer" : "option_three"
                         }
-                    ]
+                    ],
+                    "type" : "multi-choice"
                 },
                 "celebrities" : {
                     "questions" : [
@@ -556,7 +563,8 @@
                             },
                             "answer" : "option_two"
                         }
-                    ]
+                    ],
+                    "type" : "multi-choice"
                 },
                 "law" : {
                     "questions" : [
@@ -600,7 +608,8 @@
                             },
                             "answer" : "option_three"
                         }
-                    ]
+                    ],
+                    "type" : "multi-choice"
                 },
                 "sport" : {
                     "questions" : [
@@ -644,7 +653,8 @@
                             },
                             "answer" : "option_two"
                         }
-                    ]
+                    ],
+                    "type" : "multi-choice"
                 }
             }
         }
