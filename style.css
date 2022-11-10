@@ -125,6 +125,10 @@ h1 {
     height: 100%;
 }
 
+.footerPush {
+    min-height: calc(100vh - 25rem);
+}
+
 thead th {
     background-color: rgba(0, 0, 0, 0.1)!important;
 }
