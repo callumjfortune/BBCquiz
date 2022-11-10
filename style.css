@@ -51,6 +51,9 @@ h1 {
     width: 3rem;
     text-align: end;
     background-color: var(--bs-card-cap-bg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .leagueTable .card .flex-fill {
