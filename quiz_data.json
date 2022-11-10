@@ -188,88 +188,88 @@
                 "celebrities" : {
                     "questions" : [
                         {
-                            "question" : "How many wives did Henry 8th have?",
+                            "question" : "Who is the actor in the 1976 thriller Taxi Driver, who ways, “'You talkin’ to me?'",
                             "options" : {
-                                "option_one" : "8",
-                                "option_two" : "6",
-                                "option_three" : "4",
-                                "option_four" : "3"
+                                "option_one" : "Robert De Niro",
+                                "option_two" : "Jim Carrey",
+                                "option_three" : "Noel Gallagher",
+                                "option_four" : "Daniel Craig"
+                            },
+                            "answer" : "option_one"
+                        },
+                        {
+                            "question" : "Who is the London-based actor who played the lead in Richard Attenborough’s film Gandhi and won a Best Actor Oscar?",
+                            "options" : {
+                                "option_one" : "Bruce Jenner",
+                                "option_two" : "Henry Tudor",
+                                "option_three" : "Sebastian Beattie",
+                                "option_four" : "Ben Kingsley"
+                            },
+                            "answer" : "option_four"
+                        },
+                        {
+                            "question" : "Which actress was known for the line, 'I want to be alone'?",
+                            "options" : {
+                                "option_one" : "Greta Thunberg",
+                                "option_two" : "Greta Garbo",
+                                "option_three" : "Gréta Arn",
+                                "option_four" : "Greta Chi"
                             },
                             "answer" : "option_two"
                         },
                         {
-                            "question" : "How many wives did Henry 8th have?",
+                            "question" : "Which actor acted in and wrote the screenplay for the movie Rocky?",
                             "options" : {
-                                "option_one" : "8",
-                                "option_two" : "6",
-                                "option_three" : "4",
-                                "option_four" : "3"
+                                "option_one" : "Phil McGraw (Dr Phil)",
+                                "option_two" : "Eminem",
+                                "option_three" : "Sylvester Stallone",
+                                "option_four" : "Vin Diesel"
                             },
-                            "answer" : "option_two"
-                        },
-                        {
-                            "question" : "How many wives did Henry 8th have?",
-                            "options" : {
-                                "option_one" : "8",
-                                "option_two" : "6",
-                                "option_three" : "4",
-                                "option_four" : "3"
-                            },
-                            "answer" : "option_two"
-                        },
-                        {
-                            "question" : "How many wives did Henry 8th have?",
-                            "options" : {
-                                "option_one" : "8",
-                                "option_two" : "6",
-                                "option_three" : "4",
-                                "option_four" : "3"
-                            },
-                            "answer" : "option_two"
+                            "answer" : "option_three"
                         }
                     ]
                 },
                 "law" : {
                     "questions" : [
                         {
-                            "question" : "How many wives did Henry 8th have?",
+                            "question" : "What is the age of criminal responsibility in the UK?",
                             "options" : {
                                 "option_one" : "8",
-                                "option_two" : "6",
-                                "option_three" : "4",
-                                "option_four" : "3"
+                                "option_two" : "10",
+                                "option_three" : "16",
+                                "option_four" : "18"
                             },
                             "answer" : "option_two"
                         },
                         {
-                            "question" : "How many wives did Henry 8th have?",
+                            "question" : "How many years after an author's death does a copyright last?",
                             "options" : {
-                                "option_one" : "8",
-                                "option_two" : "6",
-                                "option_three" : "4",
-                                "option_four" : "3"
+                                "option_one" : "20",
+                                "option_two" : "30",
+                                "option_three" : "45",
+                                "option_four" : "70"
+                            },
+                            "answer" : "option_four"
+                        },
+                        {
+                            "question" : "As of 1313 it is illegal to enter the houses of Parliament wearing what?",
+                            "options" : {
+                                "option_one" : "A Greggs hoodie from Primark",
+                                "option_two" : "A suit of armour",
+                                "option_three" : "The catsuit from the music video for Britney Spears - Oops I did it again",
+                                "option_four" : "A bow tie"
                             },
                             "answer" : "option_two"
                         },
                         {
-                            "question" : "How many wives did Henry 8th have?",
+                            "question" : "The UK law requiring all drivers to wear seatbelts came in to force in January of which year?",
                             "options" : {
-                                "option_one" : "8",
-                                "option_two" : "6",
-                                "option_three" : "4",
-                                "option_four" : "3"
+                                "option_one" : "1983",
+                                "option_two" : "1972",
+                                "option_three" : "1986",
+                                "option_four" : "1994"
                             },
-                            "answer" : "option_two"
-                        },
-                        {
-                            "question" : "How many wives did Henry 8th have?",
-                            "options" : {
-                                "option_one" : "8",
-                                "option_two" : "6",
-                                "option_three" : "4",
-                                "option_four" : "3"
-                            },
-                            "answer" : "option_two"
+                            "answer" : "option_one"
                         }
                     ]
                 },
@@ -768,42 +768,42 @@
                 "celebrities" : {
                     "questions" : [
                         {
-                            "question" : "How many wives did Henry 8th have?",
+                            "question" : "What well-known Hollywood couple starred in the film Who’s Afraid of Virginia Woolf?",
                             "options" : {
-                                "option_one" : "8",
-                                "option_two" : "6",
-                                "option_three" : "4",
-                                "option_four" : "3"
+                                "option_one" : "Tom Hanks and Rita Wilson",
+                                "option_two" : "Beyoné and Jay-z",
+                                "option_three" : "Richard Burton and Elizabeth Taylor",
+                                "option_four" : "Blake Lively and Ryan Reynolds"
                             },
                             "answer" : "option_two"
                         },
                         {
-                            "question" : "How many wives did Henry 8th have?",
+                            "question" : "Which celebrity mum has a daughter named Apple Martin?",
                             "options" : {
-                                "option_one" : "8",
-                                "option_two" : "6",
-                                "option_three" : "4",
-                                "option_four" : "3"
+                                "option_one" : "Patsy Kensit",
+                                "option_two" : "Gwyneth Paltrow",
+                                "option_three" : "Jerry Hall",
+                                "option_four" : "Kate Moss"
                             },
                             "answer" : "option_two"
                         },
                         {
-                            "question" : "How many wives did Henry 8th have?",
+                            "question" : "Who played Katniss Everdeen in the Hunger Games",
                             "options" : {
-                                "option_one" : "8",
-                                "option_two" : "6",
-                                "option_three" : "4",
-                                "option_four" : "3"
+                                "option_one" : "Jennifer Lawrence",
+                                "option_two" : "Jennifer Aniston",
+                                "option_three" : "Jennifer Lopez",
+                                "option_four" : "Harry Hill"
                             },
-                            "answer" : "option_two"
+                            "answer" : "option_one"
                         },
                         {
-                            "question" : "How many wives did Henry 8th have?",
+                            "question" : "Which comedian married Elliott Spencer on the 17th of January 2015?",
                             "options" : {
-                                "option_one" : "8",
-                                "option_two" : "6",
-                                "option_three" : "4",
-                                "option_four" : "3"
+                                "option_one" : "Jimmy Carr",
+                                "option_two" : "Stephen Fry",
+                                "option_three" : "Michael McIntyre",
+                                "option_four" : "Russell Howard"
                             },
                             "answer" : "option_two"
                         }
@@ -812,44 +812,44 @@
                 "law" : {
                     "questions" : [
                         {
-                            "question" : "How many wives did Henry 8th have?",
+                            "question" : "In which decade in Ireland were women first legally allowed to own their homes outright?",
                             "options" : {
-                                "option_one" : "8",
-                                "option_two" : "6",
-                                "option_three" : "4",
-                                "option_four" : "3"
+                                "option_one" : "1970's",
+                                "option_two" : "1960's",
+                                "option_three" : "1980's",
+                                "option_four" : "1950's"
                             },
-                            "answer" : "option_two"
+                            "answer" : "option_one"
                         },
                         {
-                            "question" : "How many wives did Henry 8th have?",
+                            "question" : "In which decade of the 19th-century was the last British convict transported to Australia?",
                             "options" : {
-                                "option_one" : "8",
-                                "option_two" : "6",
-                                "option_three" : "4",
-                                "option_four" : "3"
+                                "option_one" : "1850's",
+                                "option_two" : "1840's",
+                                "option_three" : "1760's",
+                                "option_four" : "1770's"
                             },
-                            "answer" : "option_two"
+                            "answer" : "option_one"
                         },
                         {
-                            "question" : "How many wives did Henry 8th have?",
+                            "question" : "In which Asian country has a chewing gum sales ban been in place since 1992?",
                             "options" : {
-                                "option_one" : "8",
-                                "option_two" : "6",
-                                "option_three" : "4",
-                                "option_four" : "3"
+                                "option_one" : "Singapore",
+                                "option_two" : "China",
+                                "option_three" : "India",
+                                "option_four" : "Thailand"
                             },
-                            "answer" : "option_two"
+                            "answer" : "option_one"
                         },
                         {
-                            "question" : "How many wives did Henry 8th have?",
+                            "question" : "A deemster is a judge in which part of the United Kingdom?",
                             "options" : {
-                                "option_one" : "8",
-                                "option_two" : "6",
-                                "option_three" : "4",
-                                "option_four" : "3"
+                                "option_one" : "Liverpool",
+                                "option_two" : "Norwich",
+                                "option_three" : "Isle of Man",
+                                "option_four" : "Shetland Islands"
                             },
-                            "answer" : "option_two"
+                            "answer" : "option_three"
                         }
                     ]
                 },
