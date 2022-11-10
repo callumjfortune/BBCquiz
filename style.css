@@ -135,7 +135,7 @@ thead th {
 
 #analyticsViewerContainer {
     max-width: 100%;
-    overflow: scroll;
+    overflow: auto;
 }
 
 *:not(.form-check-input) {
