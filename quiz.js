@@ -97,6 +97,11 @@ $(function() {
                             .attr("allowfullscreen", "true")
                             .attr("frameborder", "0")
                     ) : null,
+                    question instanceof api.VideoQuizQuestion ? (
+                        $("<div>")
+                            .text(`This video snippet is meant to be watched from ${common.getUrlParameter("start", new URL(question.videoUrl))} seconds to ${common.getUrlParameter("end", new URL(question.videoUrl))} seconds.`)
+                            .addClass("btn btn-outline-success d-block disabled p-2 mb-2")
+                    ) : null,
                     $("<h2 class='card-title h5'>").text(question.question),
                     question instanceof api.ImageQuizQuestion ? (
                         $("<img width=100% class=mb-4>")
