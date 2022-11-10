@@ -4,6 +4,7 @@ import * as api from "./api.js";
 var difficulty = common.getUrlParameter("difficulty");
 var topic = common.getUrlParameter("topic");
 var quizQuestions = null;
+var alreadySubmittedScore = false;
 var quizCorrelationId = common.generateKey();
 
 $(".quizQuestions").submit(function( event )
@@ -55,10 +56,14 @@ $(".quizQuestions").submit(function( event )
         trueOrFalseQuestionsPresent: quizQuestions.filter((question) => question instanceof api.TrueOrFalseQuizQuestion).length
     });
 
-    if (api.isSignedIn()) {
+    if (api.isSignedIn() && !alreadySubmittedScore) {
+        alreadySubmittedScore = true;
+
         api.getUserData().then(function(data) {
             api.setUserData(api.SIGNED_IN_USER, {score: data.score + correctAnswers, attempts: data.attempts + 1});
         });
+    } else {
+        $("#quizSignUp").removeClass("d-none");
     }
     
 });
@@ -95,11 +100,43 @@ $(function() {
                     $("<div class='questionResult alert alert-success d-none m-0' ></div>")
                 )
             ]))
-        ).append(
-            $("<div id='quizResults' class='alert alert-success d-none' ></div>")
-        ).append(
+        ).append([
+            $("<div id='quizResults' class='alert alert-success d-none' ></div>"),
+            $("<div id='quizSignUp' class='alert alert-primary d-none'>").append([
+                $("<h2 class='h5'>").text("Add your score to the league table"),
+                $("<p>").text("Want your quiz scores to appear on the league table? If so, then we suggest that you register a nickname."),
+                $("<div class='d-flex'>").append([
+                    $("<input class='form-control' id='nickname' placeholder='Enter a nickname'>"),
+                    $("<a class='btn btn-primary flex-shrink-0'>")
+                        .attr("href", "javascript:void(0);")
+                        .text("Save nickname")
+                        .on("click", function() {
+                            $(this).attr("disabled", "true");
+
+                            var nickname = $("#nickname").val();
+
+                            api.registerUser(nickname).then(function() {
+                                $("#quizSignUp").empty();
+
+                                $(".quizQuestions").submit();
+
+                                $("#quizSignUp").append([
+                                    $("<p>").text(`Thank you! You will now appear on the league table as ${nickname}.`),
+                                    $("<a class='btn btn-primary'>")
+                                        .attr("href", "/league.html")
+                                        .text("See the league table")
+                                ]);
+                            }).catch(function(error) {
+                                console.error(error);
+
+                                $("#quizSignUpError").text("Sorry, we weren't able to save that nickname for you. Try entering another nickname.");
+                            });
+                        })
+                ]),
+                $("<p class='mt-2 mb-0' id='quizSignUpError'>")
+            ]),
             $("<button class='btn btn-success' type='submit' >Submit Answers</button>")
-        );
+        ]);
 
         api.sendAnalyticsEvent("loadQuiz", {
             topic,
