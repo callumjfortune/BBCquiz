@@ -153,6 +153,8 @@ export function registerUser(nickname) {
         data.users[nickname] = {score: 0, attempts: 0};
     });
 
+    localStorage.setItem("nickname", nickname);
+
     return Promise.resolve();
 }
 
