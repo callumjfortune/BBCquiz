@@ -20,8 +20,8 @@ export function generateKey(length = 16, digits = "ABCDEFGHIJKLMNOPQRSTUVWXYZabc
     return key;
 }
 
-export function getUrlParameter(parameter) {
-    const value = new URLSearchParams(location.search).get(parameter);
+export function getUrlParameter(parameter, url = window.location) {
+    const value = new URLSearchParams(url.search).get(parameter);
 
     return value != null ? decodeURIComponent(value) : value;
 }
