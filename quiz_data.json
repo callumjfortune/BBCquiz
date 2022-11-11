@@ -42,6 +42,8 @@
                 "geography" : {
                     "questions" : [
                         {
+                            "type": "image",
+                            "imageurl": "https://ichef.bbci.co.uk/news/1024/branded_news/0D9E/production/_115868430_gettyimages-525490691.jpg",
                             "question" : "Where is the tallest mountain in the world located?",
                             "options" : {
                                 "option_one" : "Nepal",
@@ -97,6 +99,8 @@
                 "politics" : {
                     "questions" : [
                         {
+                            "type": "image",
+                            "imageurl": "https://ichef.bbci.co.uk/images/ic/640x360/p09zl1cw.jpg",
                             "question" : "What does NATO stand for?",
                             "options" : {
                                 "option_one" : "Not Another Trade Organisation",
@@ -142,6 +146,8 @@
                 "conservation" : {
                     "questions" : [
                         {
+                            "type": "image",
+                            "imageurl": "https://ichef.bbci.co.uk/images/ic/704xn/p07tcddc.jpg",
                             "question" : "Found mainly in the Amazon rainforest of South America, which spotted cat's name comes from the native word meaning “he who kills with one leap”?",
                             "options" : {
                                 "option_one" : "Cheetah",
@@ -187,6 +193,8 @@
                 "celebrities" : {
                     "questions" : [
                         {
+                            "type": "image",
+                            "imageurl": "https://ichef.bbci.co.uk/live-experience/cps/480/cpsprodpb/D1F2/production/_119964735_7bc868d6-9205-42b2-bf47-2ff5f7417e98.jpg",
                             "question" : "Who is the actor in the 1976 thriller Taxi Driver, who ways, “'You talkin’ to me?'",
                             "options" : {
                                 "option_one" : "Robert De Niro",
@@ -232,6 +240,8 @@
                 "law" : {
                     "questions" : [
                         {
+                            "type": "image",
+                            "imageurl": "https://www.peoplesworld.org/wp-content/uploads/2016/11/trumphands960.jpg",
                             "question" : "What is the age of criminal responsibility in the UK?",
                             "options" : {
                                 "option_one" : "8",
@@ -277,6 +287,8 @@
                 "sport" : {
                     "questions" : [
                         {
+                            "type": "image",
+                            "imageurl": "https://image.roku.com/blog/wp-content/uploads/2021/07/UK_2021-Olympic-Hero.png",
                             "question" : "Which country came top of the medal table in the 2016 Summer Olympic Games in Rio de Janeiro?",
                             "options" : {
                                 "option_one" : "United Kingdom",
