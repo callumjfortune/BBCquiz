@@ -333,6 +333,8 @@
                 "history" : {
                     "questions" : [
                         {
+                            "type": "image",
+                            "imageurl": "https://media.istockphoto.com/id/1328395253/vector/hundred-points-emoji-icon.jpg?s=612x612&w=0&k=20&c=zy2NI8jM4FQhOuIqv4EfkqRvLamb-DeL4DDhqBKsS74=",
                             "question" : "How many years did the 100 years war last?",
                             "options" : {
                                 "option_one" : "100",
@@ -378,6 +380,8 @@
                 "geography" : {
                     "questions" : [
                         {
+                            "type": "image",
+                            "imageurl": "https://www.simplilearn.com/ice9/free_resources_article_thumb/time-confusion-cycle-time-takt-time-lead-time.jpg",
                             "question" : "How many time zones does Russia have?",
                             "options" : {
                                 "option_one" : "8",
@@ -438,6 +442,8 @@
                             "answer" : "false"
                         },
                         {
+                            "type": "image",
+                            "imageurl": "https://www.thetimes.co.uk/imageserver/image/%2Fmethode%2Fsundaytimes%2Fprod%2Fweb%2Fbin%2F620f3218-9314-11e6-9bc7-9aad89718e4f.jpg?crop=1500%2C1000%2C0%2C0",
                             "question" : "Who was the only British Prime Minister to be assassinated?",
                             "options" : {
                                 "option_one" : "Margaret Thatcher",
@@ -473,6 +479,8 @@
                 "conservation" : {
                     "questions" : [
                         {
+                            "type": "image",
+                            "imageurl": "https://img.huffingtonpost.com/asset/5a95e2d61e0000fb077acff3.png?cache=q70RO5Onpa&ops=1778_1000",
                             "question" : "What does the term biodiversity mean?",
                             "options" : {
                                 "option_one" : "The total variety of all life on earth",
@@ -518,6 +526,8 @@
                 "celebrities" : {
                     "questions" : [
                         {
+                            "type": "image",
+                            "imageurl": "http://newsimg.bbc.co.uk/media/images/47459000/jpg/_47459288_008702467-1.jpg",
                             "question" : "What well-known Hollywood couple starred in the film Who’s Afraid of Virginia Woolf?",
                             "options" : {
                                 "option_one" : "Tom Hanks and Rita Wilson",
@@ -563,6 +573,8 @@
                 "law" : {
                     "questions" : [
                         {
+                            "type": "image",
+                            "imageurl": "https://cdn.mos.cms.futurecdn.net/X7dCmuGPRpjjznoXw6Ya9S.jpg", 
                             "question" : "In which decade in Ireland were women first legally allowed to own their homes outright?",
                             "options" : {
                                 "option_one" : "1970's",
